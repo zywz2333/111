@@ -1,0 +1,81 @@
+{
+  "uid" : "dde8f1bbbda4821",
+  "name" : "test_morning_sx",
+  "fullName" : "test_demo4#test_morning_sx",
+  "historyId" : "17cf2f7b655673cfa8a66388cec19710",
+  "time" : {
+    "start" : 1565186395586,
+    "stop" : 1565186402051,
+    "duration" : 6465
+  },
+  "description" : "\n        猫宁生鲜\n    ",
+  "descriptionHtml" : "<pre><code>    猫宁生鲜\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "\n        猫宁生鲜\n    ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "10833ea646f1fe85",
+      "name" : "log",
+      "source" : "10833ea646f1fe85.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "bcaaf3428d98145a",
+      "name" : "stdout",
+      "source" : "bcaaf3428d98145a.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "2cab9bdbcba36c3d",
+      "name" : "stderr",
+      "source" : "2cab9bdbcba36c3d.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_demo4"
+  }, {
+    "name" : "host",
+    "value" : "SNake"
+  }, {
+    "name" : "thread",
+    "value" : "13712-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_demo4"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dde8f1bbbda4821.json",
+  "parameterValues" : [ ]
+}

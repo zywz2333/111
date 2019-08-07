@@ -1,0 +1,13 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Aug 07 22:00:13 CST 2019","Wed Aug 07 22:00:20 CST 2019","6662","","test_demo5","","","","test_morning_sx","
+        猫宁生鲜
+    "
+"passed","Wed Aug 07 21:59:55 CST 2019","Wed Aug 07 22:00:02 CST 2019","6465","","test_demo4","","","","test_morning_sx","
+        猫宁生鲜
+    "
+"passed","Wed Aug 07 21:59:45 CST 2019","Wed Aug 07 21:59:55 CST 2019","10246","","test_demo4","","","","test_selenium01","
+        pytest管理selenium测试用例，形成微型的测试框架
+    "
+"passed","Wed Aug 07 22:00:02 CST 2019","Wed Aug 07 22:00:13 CST 2019","11384","","test_demo5","","","","test_selenium01","
+        pytest管理selenium测试用例，形成微型的测试框架
+    "

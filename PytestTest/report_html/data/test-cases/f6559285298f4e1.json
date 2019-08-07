@@ -1,0 +1,81 @@
+{
+  "uid" : "f6559285298f4e1",
+  "name" : "test_selenium01",
+  "fullName" : "test_demo5#test_selenium01",
+  "historyId" : "cdb9ea4b0a6cfb387c7d4414acac3b82",
+  "time" : {
+    "start" : 1565186402059,
+    "stop" : 1565186413443,
+    "duration" : 11384
+  },
+  "description" : "\n        pytest管理selenium测试用例，形成微型的测试框架\n    ",
+  "descriptionHtml" : "<pre><code>    pytest管理selenium测试用例，形成微型的测试框架\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "\n        pytest管理selenium测试用例，形成微型的测试框架\n    ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ec47af29ac099640",
+      "name" : "log",
+      "source" : "ec47af29ac099640.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "883d703345a23aa9",
+      "name" : "stdout",
+      "source" : "883d703345a23aa9.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "2d08c40cab846645",
+      "name" : "stderr",
+      "source" : "2d08c40cab846645.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_demo5"
+  }, {
+    "name" : "host",
+    "value" : "SNake"
+  }, {
+    "name" : "thread",
+    "value" : "13712-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_demo5"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f6559285298f4e1.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,81 @@
+{
+  "uid" : "2e63912375260102",
+  "name" : "test_selenium01",
+  "fullName" : "test_demo4#test_selenium01",
+  "historyId" : "847ebe581e1cca887da032e569aa4fb4",
+  "time" : {
+    "start" : 1565186385324,
+    "stop" : 1565186395570,
+    "duration" : 10246
+  },
+  "description" : "\n        pytest管理selenium测试用例，形成微型的测试框架\n    ",
+  "descriptionHtml" : "<pre><code>    pytest管理selenium测试用例，形成微型的测试框架\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "\n        pytest管理selenium测试用例，形成微型的测试框架\n    ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "24e51338abc1b170",
+      "name" : "log",
+      "source" : "24e51338abc1b170.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "ce895085b186aa63",
+      "name" : "stdout",
+      "source" : "ce895085b186aa63.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "b9906d38f97f7598",
+      "name" : "stderr",
+      "source" : "b9906d38f97f7598.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_demo4"
+  }, {
+    "name" : "host",
+    "value" : "SNake"
+  }, {
+    "name" : "thread",
+    "value" : "13712-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_demo4"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2e63912375260102.json",
+  "parameterValues" : [ ]
+}
