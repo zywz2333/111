@@ -1,4 +1,15 @@
 
+a = "yyy"
+
+def testxxx():
+    x = "sss"
+    print(a)
+# 在外面引用是不行的
+#  print(x)
+
+testxxx()
+
+
 # 面向过程：只需要去关心实现的过程
 def add(x, y):
     sum = x + y

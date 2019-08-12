@@ -67,3 +67,27 @@ print(value)
 print(hdict)
 
 
+
+
+# 补充：20190812 isinstance
+aaa = "sss"
+bbb = 10
+ccc = 10.0
+ddd = True
+fff = [1,2,3,4]
+ggg = (1,2,3,5)
+hhh = {"username":"小坤坤", "question":"isinstance"}
+jjj = None
+
+print("============================")
+print(type(aaa)) # str
+print(type(bbb)) # int 
+print(type(ccc)) # float
+print(type(ddd)) # bool
+print(type(fff)) # list
+print(type(ggg)) # tuple
+print(type(hhh)) # dict
+print(type(jjj)) # NoneType
+
+print(isinstance(aaa, list))
+print(isinstance(ggg, tuple))
