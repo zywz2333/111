@@ -5,6 +5,7 @@ import unittest
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait                 # 这里是导入动态查找需要的第三方包
 
+@unittest.skip("tiaoguo")
 class TestCaseLifeCycle(unittest.TestCase):
     
     # 类方式和结束的方法，称为：类方法

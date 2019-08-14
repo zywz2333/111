@@ -5,6 +5,8 @@
 
 import unittest
 
+
+@unittest.skip("tiaoguo")
 class TestCaseAssert(unittest.TestCase):
     
     def test_01_xiangdeng(self):

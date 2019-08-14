@@ -5,6 +5,8 @@
 # 导入unittest包
 import unittest
 
+
+@unittest.skip("tiaoguo")
 class TestCaseDemo1(unittest.TestCase):
     # 成员方法（测试用例）必须以test_开头
     def test_01_add(self):

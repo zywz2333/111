@@ -2,6 +2,8 @@ import unittest
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait                 # 这里是导入动态查找需要的第三方包
 
+
+@unittest.skip("tiaoguo")
 class TestCaseMorning(unittest.TestCase):
     def test_01_shopcar(self):
         chrome_driver = "C:\\Users\\SNake\\VSCodeProjects\\ljtest201907\\SeleniumTest\\chromedriver.exe"

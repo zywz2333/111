@@ -4,6 +4,8 @@
 
 import unittest
 
+
+@unittest.skip("tiaoguo")
 class TestCaseResultDemo(unittest.TestCase):
     def test_01_pass(self):
         # pass 所有代码都执行完了/断言通过

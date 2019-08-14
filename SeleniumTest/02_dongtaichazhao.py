@@ -6,9 +6,9 @@ from selenium.webdriver.support.ui import WebDriverWait
 # 动态查找封装成一个方法
 # 二次封装：以后，我们只需要通过调用它，传入对应的参数，就能实现动态查找
 def find(driver, timeout, locator):
-    from selenium.webdriver.support.ui import WebDriverWait                 # 这里是导入动态查找需要的第三方包
-    element = WebDriverWait(driver, timeout).until(lambda s: s.find_element(*locator))  # 实现元素的动态定位
-    return element                                                          # 返回已经查找的元素
+    from selenium.webdriver.support.ui import WebDriverWait                         # 这里是导入动态查找需要的第三方包
+    element = WebDriverWait(w, timeout).until(lambda s: s.find_element(*locator))   # 实现元素的动态定位
+    return element                                                                  # 返回已经查找的元素
 
 driver = webdriver.Chrome(executable_path="./chromedriver.exe")
 driver.maximize_window()
