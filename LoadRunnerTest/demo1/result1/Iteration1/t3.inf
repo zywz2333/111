@@ -1,0 +1,12 @@
+[t3]
+SnapshotXmlFile=snapshot_3.xml
+ContentType=text/plain
+StepName=Custom Request: LUXLOGIN
+Total=1
+FileName1=t3.UNK
+RequestHeaderFile=t3_RequestHeader.txt
+ResponseHeaderFile=t3_ResponseHeader.txt
+RequestBodyFile=t3_RequestBody.txt
+URL1=file:
+[AdditionalInfo]
+IsIgnorable=1

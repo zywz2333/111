@@ -1,164 +1,638 @@
-2019-08-27 22:45:05,485 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
-2019-08-27 22:45:05,500 INFO o.a.j.JMeter: Loading user properties from: C:\DevTools\apache-jmeter-4.0\bin\user.properties
-2019-08-27 22:45:05,501 INFO o.a.j.JMeter: Loading system properties from: C:\DevTools\apache-jmeter-4.0\bin\system.properties
-2019-08-27 22:45:05,510 INFO o.a.j.JMeter: Copyright (c) 1998-2018 The Apache Software Foundation
-2019-08-27 22:45:05,511 INFO o.a.j.JMeter: Version 4.0 r1823414
-2019-08-27 22:45:05,511 INFO o.a.j.JMeter: java.version=1.8.0_171
-2019-08-27 22:45:05,511 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
-2019-08-27 22:45:05,511 INFO o.a.j.JMeter: os.name=Windows 10
-2019-08-27 22:45:05,511 INFO o.a.j.JMeter: os.arch=amd64
-2019-08-27 22:45:05,511 INFO o.a.j.JMeter: os.version=10.0
-2019-08-27 22:45:05,511 INFO o.a.j.JMeter: file.encoding=GBK
-2019-08-27 22:45:05,511 INFO o.a.j.JMeter: Max memory     =1073741824
-2019-08-27 22:45:05,511 INFO o.a.j.JMeter: Available Processors =4
-2019-08-27 22:45:05,518 INFO o.a.j.JMeter: Default Locale=English (EN)
-2019-08-27 22:45:05,519 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
-2019-08-27 22:45:05,519 INFO o.a.j.JMeter: JMeterHome=C:\DevTools\apache-jmeter-4.0
-2019-08-27 22:45:05,519 INFO o.a.j.JMeter: user.dir  =C:\Users\SNake\VSCodeProjects\ljtest201907\JmeterTest
-2019-08-27 22:45:05,520 INFO o.a.j.JMeter: PWD       =C:\Users\SNake\VSCodeProjects\ljtest201907\JmeterTest
-2019-08-27 22:45:05,528 INFO o.a.j.JMeter: IP: 192.168.216.1 Name: SNake FullName: windows10.microdone.cn
-2019-08-27 22:45:05,530 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'C:\Users\SNake\VSCodeProjects\ljtest201907\JmeterTest\.\15-100-01'
-2019-08-27 22:45:05,532 INFO o.a.j.s.FileServer: Default base='C:\Users\SNake\VSCodeProjects\ljtest201907\JmeterTest'
-2019-08-27 22:45:05,536 INFO o.a.j.s.FileServer: Set new base='C:\Users\SNake\VSCodeProjects\ljtest201907\JmeterTest\.'
-2019-08-27 22:45:05,673 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
-2019-08-27 22:45:05,686 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
-2019-08-27 22:45:05,689 INFO o.a.j.s.SaveService: Using SaveService properties version 4.0
-2019-08-27 22:45:05,697 INFO o.a.j.s.SaveService: Loading file: .\Test Plan.jmx
-2019-08-27 22:45:05,827 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2019-08-27 22:45:05,827 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2019-08-27 22:45:05,827 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2019-08-27 22:45:05,827 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2019-08-27 22:45:05,828 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
-2019-08-27 22:45:05,828 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
-2019-08-27 22:45:05,863 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
-2019-08-27 22:45:06,198 INFO o.a.j.JMeter: Creating summariser <summary>
-2019-08-27 22:45:06,205 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
-2019-08-27 22:45:06,205 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: ./15-100-01.jtl
-2019-08-27 22:45:06,205 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: C:\DevTools\apache-jmeter-4.0\bin\reportgenerator.properties
-2019-08-27 22:45:06,206 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
-2019-08-27 22:45:06,211 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
-2019-08-27 22:45:06,220 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
-2019-08-27 22:45:06,220 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction : {} is empty, not APDEX per transaction customization
-2019-08-27 22:45:06,220 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
-2019-08-27 22:45:06,221 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
-2019-08-27 22:45:06,221 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
-2019-08-27 22:45:06,221 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
-2019-08-27 22:45:06,221 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
-2019-08-27 22:45:06,221 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
-2019-08-27 22:45:06,228 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
-2019-08-27 22:45:06,228 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
-2019-08-27 22:45:06,228 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
-2019-08-27 22:45:06,228 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
-2019-08-27 22:45:06,231 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
-2019-08-27 22:45:06,232 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
-2019-08-27 22:45:06,232 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
-2019-08-27 22:45:06,232 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
-2019-08-27 22:45:06,232 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
-2019-08-27 22:45:06,233 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
-2019-08-27 22:45:06,233 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
-2019-08-27 22:45:06,233 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
-2019-08-27 22:45:06,251 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2019-08-27 22:45:06,251 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2019-08-27 22:45:06,251 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2019-08-27 22:45:06,255 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
-2019-08-27 22:45:06,255 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
-2019-08-27 22:45:06,384 INFO o.a.j.JMeter: Running test (1566917106384)
-2019-08-27 22:45:06,411 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 商品详情场景
-2019-08-27 22:45:06,412 INFO o.a.j.e.StandardJMeterEngine: Starting 15 threads for group 商品详情场景.
-2019-08-27 22:45:06,412 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2019-08-27 22:45:06,412 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=15 ramp-up=1 perThread=66.666664 delayedStart=false
-2019-08-27 22:45:06,430 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
-2019-08-27 22:45:06,430 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
-2019-08-27 22:45:06,430 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
-2019-08-27 22:45:06,430 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
-2019-08-27 22:45:06,431 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-1
-2019-08-27 22:45:06,502 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-2
-2019-08-27 22:45:06,508 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2019-08-27 22:45:06,508 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2019-08-27 22:45:06,571 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-3
-2019-08-27 22:45:06,643 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-4
-2019-08-27 22:45:06,713 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-5
-2019-08-27 22:45:06,783 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-6
-2019-08-27 22:45:06,855 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-7
-2019-08-27 22:45:06,934 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-8
-2019-08-27 22:45:07,004 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-9
-2019-08-27 22:45:07,078 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-10
-2019-08-27 22:45:07,151 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-11
-2019-08-27 22:45:07,222 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-12
-2019-08-27 22:45:07,300 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-13
-2019-08-27 22:45:07,371 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-14
-2019-08-27 22:45:07,443 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-15
-2019-08-27 22:45:07,463 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = SNake
-2019-08-27 22:45:07,468 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
-2019-08-27 22:45:30,033 INFO o.a.j.r.Summariser: summary +    765 in 00:00:24 =   32.4/s Avg:   277 Min:    34 Max:   923 Err:     0 (0.00%) Active: 15 Started: 15 Finished: 0
-2019-08-27 22:46:00,090 INFO o.a.j.r.Summariser: summary +   1002 in 00:00:30 =   33.3/s Avg:   294 Min:    38 Max:   863 Err:     0 (0.00%) Active: 15 Started: 15 Finished: 0
-2019-08-27 22:46:00,091 INFO o.a.j.r.Summariser: summary =   1767 in 00:00:54 =   32.9/s Avg:   286 Min:    34 Max:   923 Err:     0 (0.00%)
-2019-08-27 22:46:30,006 INFO o.a.j.r.Summariser: summary +    998 in 00:00:30 =   33.4/s Avg:   282 Min:    30 Max:   848 Err:     0 (0.00%) Active: 15 Started: 15 Finished: 0
-2019-08-27 22:46:30,009 INFO o.a.j.r.Summariser: summary =   2765 in 00:01:24 =   33.1/s Avg:   285 Min:    30 Max:   923 Err:     0 (0.00%)
-2019-08-27 22:46:36,559 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-11
-2019-08-27 22:46:36,559 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-11
-2019-08-27 22:46:36,581 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-12
-2019-08-27 22:46:36,581 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-12
-2019-08-27 22:46:36,607 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-6
-2019-08-27 22:46:36,607 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-6
-2019-08-27 22:46:36,629 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-9
-2019-08-27 22:46:36,629 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-9
-2019-08-27 22:46:36,653 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-13
-2019-08-27 22:46:36,653 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-13
-2019-08-27 22:46:36,704 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-1
-2019-08-27 22:46:36,704 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-1
-2019-08-27 22:46:36,721 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-5
-2019-08-27 22:46:36,721 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-5
-2019-08-27 22:46:36,884 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-15
-2019-08-27 22:46:36,885 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-15
-2019-08-27 22:46:36,932 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-7
-2019-08-27 22:46:36,932 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-7
-2019-08-27 22:46:36,935 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-10
-2019-08-27 22:46:36,935 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-10
-2019-08-27 22:46:36,949 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-14
-2019-08-27 22:46:36,949 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-4
-2019-08-27 22:46:36,949 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-14
-2019-08-27 22:46:36,949 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-4
-2019-08-27 22:46:36,949 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-8
-2019-08-27 22:46:36,949 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-3
-2019-08-27 22:46:36,949 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-2
-2019-08-27 22:46:36,949 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-8
-2019-08-27 22:46:36,949 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-3
-2019-08-27 22:46:36,950 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-2
-2019-08-27 22:46:36,950 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2019-08-27 22:46:36,955 INFO o.a.j.r.Summariser: summary +    235 in 00:00:07 =   33.8/s Avg:   277 Min:    41 Max:   848 Err:     0 (0.00%) Active: 0 Started: 15 Finished: 15
-2019-08-27 22:46:36,957 INFO o.a.j.r.Summariser: summary =   3000 in 00:01:31 =   33.1/s Avg:   284 Min:    30 Max:   923 Err:     0 (0.00%)
-2019-08-27 22:46:36,958 INFO o.a.j.JMeter: Generating Dashboard
-2019-08-27 22:46:36,958 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
-2019-08-27 22:46:36,982 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
-2019-08-27 22:46:37,764 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
-2019-08-27 22:46:37,764 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
-2019-08-27 22:46:37,767 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
-2019-08-27 22:46:37,767 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
-2019-08-27 22:46:37,774 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
-2019-08-27 22:46:37,779 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
-2019-08-27 22:46:37,779 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
-2019-08-27 22:46:37,780 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
-2019-08-27 22:46:37,855 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
-2019-08-27 22:46:37,857 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
-2019-08-27 22:46:37,857 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
-2019-08-27 22:46:37,857 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
-2019-08-27 22:46:37,880 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
-2019-08-27 22:46:37,881 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 21000 samples
-2019-08-27 22:46:37,881 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
-2019-08-27 22:46:37,881 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
-2019-08-27 22:46:37,883 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
-2019-08-27 22:46:37,883 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
-2019-08-27 22:46:37,883 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
-2019-08-27 22:46:37,888 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
-2019-08-27 22:46:37,890 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
-2019-08-27 22:46:37,890 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
-2019-08-27 22:46:37,890 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
-2019-08-27 22:46:37,890 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 63000 samples
-2019-08-27 22:46:37,890 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 13500 samples
-2019-08-27 22:46:37,890 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 4500 samples
-2019-08-27 22:46:37,890 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 4500 samples produced in 884ms on channel 0
-2019-08-27 22:46:37,890 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
-2019-08-27 22:46:37,893 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: C:\Users\SNake\VSCodeProjects\ljtest201907\JmeterTest\.\15-100-01
-2019-08-27 22:46:37,980 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: C:\Users\SNake\VSCodeProjects\ljtest201907\JmeterTest\.\15-100-01, creating folder structure
-2019-08-27 22:46:39,016 INFO o.a.j.JMeter: Dashboard generated
+2019-08-28 20:21:00,565 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2019-08-28 20:21:00,581 INFO o.a.j.JMeter: Loading user properties from: C:\DevTools\apache-jmeter-4.0\bin\user.properties
+2019-08-28 20:21:00,582 INFO o.a.j.JMeter: Loading system properties from: C:\DevTools\apache-jmeter-4.0\bin\system.properties
+2019-08-28 20:21:00,588 INFO o.a.j.JMeter: Copyright (c) 1998-2018 The Apache Software Foundation
+2019-08-28 20:21:00,588 INFO o.a.j.JMeter: Version 4.0 r1823414
+2019-08-28 20:21:00,588 INFO o.a.j.JMeter: java.version=1.8.0_171
+2019-08-28 20:21:00,588 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2019-08-28 20:21:00,589 INFO o.a.j.JMeter: os.name=Windows 10
+2019-08-28 20:21:00,589 INFO o.a.j.JMeter: os.arch=amd64
+2019-08-28 20:21:00,589 INFO o.a.j.JMeter: os.version=10.0
+2019-08-28 20:21:00,589 INFO o.a.j.JMeter: file.encoding=GBK
+2019-08-28 20:21:00,589 INFO o.a.j.JMeter: Max memory     =1073741824
+2019-08-28 20:21:00,589 INFO o.a.j.JMeter: Available Processors =4
+2019-08-28 20:21:00,594 INFO o.a.j.JMeter: Default Locale=English (EN)
+2019-08-28 20:21:00,595 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2019-08-28 20:21:00,595 INFO o.a.j.JMeter: JMeterHome=C:\DevTools\apache-jmeter-4.0
+2019-08-28 20:21:00,595 INFO o.a.j.JMeter: user.dir  =C:\Users\SNake\VSCodeProjects\ljtest201907\JmeterTest
+2019-08-28 20:21:00,596 INFO o.a.j.JMeter: PWD       =C:\Users\SNake\VSCodeProjects\ljtest201907\JmeterTest
+2019-08-28 20:21:00,599 INFO o.a.j.JMeter: IP: 192.168.216.1 Name: SNake FullName: windows10.microdone.cn
+2019-08-28 20:21:00,601 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'C:\Users\SNake\VSCodeProjects\ljtest201907\JmeterTest\.\100-100-01'
+2019-08-28 20:21:00,603 INFO o.a.j.s.FileServer: Default base='C:\Users\SNake\VSCodeProjects\ljtest201907\JmeterTest'
+2019-08-28 20:21:00,610 INFO o.a.j.s.FileServer: Set new base='C:\Users\SNake\VSCodeProjects\ljtest201907\JmeterTest'
+2019-08-28 20:21:00,760 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2019-08-28 20:21:00,776 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2019-08-28 20:21:00,783 INFO o.a.j.s.SaveService: Using SaveService properties version 4.0
+2019-08-28 20:21:00,790 INFO o.a.j.s.SaveService: Loading file: Test Plan.jmx
+2019-08-28 20:21:00,888 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-08-28 20:21:00,888 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-08-28 20:21:00,889 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-08-28 20:21:00,889 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-08-28 20:21:00,889 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2019-08-28 20:21:00,889 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2019-08-28 20:21:00,934 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2019-08-28 20:21:01,356 INFO o.a.j.JMeter: Creating summariser <summary>
+2019-08-28 20:21:01,369 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2019-08-28 20:21:01,369 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: 100-100-01.jtl
+2019-08-28 20:21:01,369 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: C:\DevTools\apache-jmeter-4.0\bin\reportgenerator.properties
+2019-08-28 20:21:01,371 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2019-08-28 20:21:01,376 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2019-08-28 20:21:01,379 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2019-08-28 20:21:01,379 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction : {} is empty, not APDEX per transaction customization
+2019-08-28 20:21:01,379 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2019-08-28 20:21:01,379 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2019-08-28 20:21:01,380 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2019-08-28 20:21:01,380 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2019-08-28 20:21:01,380 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2019-08-28 20:21:01,380 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2019-08-28 20:21:01,384 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2019-08-28 20:21:01,384 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2019-08-28 20:21:01,384 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2019-08-28 20:21:01,385 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2019-08-28 20:21:01,388 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2019-08-28 20:21:01,388 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2019-08-28 20:21:01,388 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2019-08-28 20:21:01,388 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2019-08-28 20:21:01,389 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2019-08-28 20:21:01,390 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2019-08-28 20:21:01,390 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2019-08-28 20:21:01,391 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2019-08-28 20:21:01,398 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-08-28 20:21:01,398 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-08-28 20:21:01,398 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-08-28 20:21:01,403 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2019-08-28 20:21:01,403 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2019-08-28 20:21:01,579 INFO o.a.j.JMeter: Running test (1566994861579)
+2019-08-28 20:21:01,609 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 商品详情场景
+2019-08-28 20:21:01,610 INFO o.a.j.e.StandardJMeterEngine: Starting 100 threads for group 商品详情场景.
+2019-08-28 20:21:01,610 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-08-28 20:21:01,610 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=100 ramp-up=1 perThread=10.0 delayedStart=false
+2019-08-28 20:21:01,629 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2019-08-28 20:21:01,629 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2019-08-28 20:21:01,629 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2019-08-28 20:21:01,629 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2019-08-28 20:21:01,631 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-1
+2019-08-28 20:21:01,645 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-2
+2019-08-28 20:21:01,668 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-3
+2019-08-28 20:21:01,678 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-4
+2019-08-28 20:21:01,726 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-5
+2019-08-28 20:21:01,727 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-6
+2019-08-28 20:21:01,751 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-7
+2019-08-28 20:21:01,838 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-8
+2019-08-28 20:21:02,006 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-9
+2019-08-28 20:21:02,013 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-10
+2019-08-28 20:21:02,162 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-11
+2019-08-28 20:21:02,265 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-12
+2019-08-28 20:21:02,281 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-13
+2019-08-28 20:21:02,293 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-14
+2019-08-28 20:21:02,302 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-15
+2019-08-28 20:21:02,316 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-16
+2019-08-28 20:21:02,337 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-17
+2019-08-28 20:21:02,337 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-18
+2019-08-28 20:21:02,355 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-19
+2019-08-28 20:21:02,362 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-20
+2019-08-28 20:21:02,372 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-21
+2019-08-28 20:21:02,384 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-22
+2019-08-28 20:21:02,391 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-23
+2019-08-28 20:21:02,401 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-24
+2019-08-28 20:21:02,414 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-25
+2019-08-28 20:21:02,421 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-26
+2019-08-28 20:21:02,429 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-27
+2019-08-28 20:21:02,442 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-28
+2019-08-28 20:21:02,450 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-29
+2019-08-28 20:21:02,455 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-08-28 20:21:02,456 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-08-28 20:21:02,459 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-30
+2019-08-28 20:21:02,469 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-31
+2019-08-28 20:21:02,479 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-32
+2019-08-28 20:21:02,489 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-33
+2019-08-28 20:21:02,499 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-34
+2019-08-28 20:21:02,509 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-35
+2019-08-28 20:21:02,518 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-36
+2019-08-28 20:21:02,529 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-37
+2019-08-28 20:21:02,539 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-38
+2019-08-28 20:21:02,549 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-39
+2019-08-28 20:21:02,559 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-40
+2019-08-28 20:21:02,569 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-41
+2019-08-28 20:21:02,578 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-42
+2019-08-28 20:21:02,588 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-43
+2019-08-28 20:21:02,607 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-44
+2019-08-28 20:21:02,639 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-45
+2019-08-28 20:21:02,650 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-46
+2019-08-28 20:21:02,662 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-47
+2019-08-28 20:21:02,681 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-48
+2019-08-28 20:21:02,693 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-49
+2019-08-28 20:21:02,709 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-50
+2019-08-28 20:21:02,725 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-51
+2019-08-28 20:21:02,738 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-52
+2019-08-28 20:21:02,755 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-53
+2019-08-28 20:21:02,773 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-54
+2019-08-28 20:21:02,789 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-55
+2019-08-28 20:21:02,806 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-56
+2019-08-28 20:21:02,818 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-57
+2019-08-28 20:21:02,837 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-58
+2019-08-28 20:21:02,850 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-59
+2019-08-28 20:21:02,864 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-60
+2019-08-28 20:21:02,882 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-61
+2019-08-28 20:21:02,893 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-62
+2019-08-28 20:21:02,909 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-63
+2019-08-28 20:21:02,926 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-64
+2019-08-28 20:21:02,940 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-65
+2019-08-28 20:21:02,956 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-66
+2019-08-28 20:21:02,969 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-67
+2019-08-28 20:21:02,995 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-68
+2019-08-28 20:21:03,019 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-69
+2019-08-28 20:21:03,030 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-70
+2019-08-28 20:21:03,043 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-71
+2019-08-28 20:21:03,058 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-72
+2019-08-28 20:21:03,071 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-73
+2019-08-28 20:21:03,084 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-74
+2019-08-28 20:21:03,098 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-75
+2019-08-28 20:21:03,111 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-76
+2019-08-28 20:21:03,127 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-77
+2019-08-28 20:21:03,139 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-78
+2019-08-28 20:21:03,153 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-79
+2019-08-28 20:21:03,167 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-80
+2019-08-28 20:21:03,185 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-81
+2019-08-28 20:21:03,198 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-82
+2019-08-28 20:21:03,211 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-83
+2019-08-28 20:21:03,227 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-84
+2019-08-28 20:21:03,243 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-85
+2019-08-28 20:21:03,254 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-86
+2019-08-28 20:21:03,270 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-87
+2019-08-28 20:21:03,284 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-88
+2019-08-28 20:21:03,296 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-89
+2019-08-28 20:21:03,308 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-90
+2019-08-28 20:21:03,324 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-91
+2019-08-28 20:21:03,335 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-92
+2019-08-28 20:21:03,349 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-93
+2019-08-28 20:21:03,363 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-94
+2019-08-28 20:21:03,375 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-95
+2019-08-28 20:21:03,395 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-96
+2019-08-28 20:21:03,407 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-97
+2019-08-28 20:21:03,422 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-98
+2019-08-28 20:21:03,438 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-99
+2019-08-28 20:21:03,448 INFO o.a.j.t.JMeterThread: Thread started: 商品详情场景 1-100
+2019-08-28 20:21:03,467 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = SNake
+2019-08-28 20:21:03,472 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2019-08-28 20:21:03,771 INFO o.a.j.r.Summariser: summary +      1 in 00:00:02 =    0.5/s Avg:   251 Min:   251 Max:   251 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2019-08-28 20:21:09,083 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:21:12,202 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:21:15,364 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:21:18,501 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:21:27,773 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:21:30,009 INFO o.a.j.r.Summariser: summary +    850 in 00:00:26 =   32.4/s Avg:  1358 Min:    95 Max: 14997 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2019-08-28 20:21:30,011 INFO o.a.j.r.Summariser: summary =    851 in 00:00:28 =   29.9/s Avg:  1357 Min:    95 Max: 14997 Err:     0 (0.00%)
+2019-08-28 20:21:33,292 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:21:36,352 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:21:39,384 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:21:45,048 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:21:48,283 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:21:51,427 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:21:54,575 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:21:57,620 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:22:00,005 INFO o.a.j.r.Summariser: summary +    848 in 00:00:30 =   28.3/s Avg:  1780 Min:   125 Max: 10861 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2019-08-28 20:22:00,016 INFO o.a.j.r.Summariser: summary =   1699 in 00:00:58 =   29.1/s Avg:  1568 Min:    95 Max: 14997 Err:     0 (0.00%)
+2019-08-28 20:22:03,666 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:22:15,627 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:22:18,765 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:22:24,947 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:22:27,969 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:22:30,013 INFO o.a.j.r.Summariser: summary +    962 in 00:00:30 =   32.1/s Avg:  1525 Min:   102 Max:  9069 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2019-08-28 20:22:30,015 INFO o.a.j.r.Summariser: summary =   2661 in 00:01:28 =   30.1/s Avg:  1553 Min:    95 Max: 14997 Err:     0 (0.00%)
+2019-08-28 20:22:33,490 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:22:36,633 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:22:39,763 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:22:42,883 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:22:46,005 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:22:49,131 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:22:52,248 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:22:55,281 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:22:58,339 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:23:00,479 INFO o.a.j.r.Summariser: summary +    848 in 00:00:30 =   27.8/s Avg:  1717 Min:   115 Max: 15248 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2019-08-28 20:23:00,481 INFO o.a.j.r.Summariser: summary =   3509 in 00:01:59 =   29.5/s Avg:  1592 Min:    95 Max: 15248 Err:     0 (0.00%)
+2019-08-28 20:23:01,411 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:23:04,419 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:23:09,898 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:23:22,330 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:23:25,451 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:23:28,494 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:23:30,027 INFO o.a.j.r.Summariser: summary +    918 in 00:00:30 =   31.1/s Avg:  1473 Min:   104 Max:  8067 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2019-08-28 20:23:30,028 INFO o.a.j.r.Summariser: summary =   4427 in 00:02:28 =   29.8/s Avg:  1568 Min:    95 Max: 15248 Err:     0 (0.00%)
+2019-08-28 20:23:31,608 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:23:34,769 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:23:37,887 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:23:47,196 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:23:50,324 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:23:53,453 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:23:56,567 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:23:59,717 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:24:00,309 INFO o.a.j.r.Summariser: summary +    924 in 00:00:30 =   30.5/s Avg:  1504 Min:   113 Max:  9052 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2019-08-28 20:24:00,312 INFO o.a.j.r.Summariser: summary =   5351 in 00:02:59 =   29.9/s Avg:  1557 Min:    95 Max: 15248 Err:     0 (0.00%)
+2019-08-28 20:24:02,846 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:24:05,903 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:24:08,960 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:24:15,149 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:24:18,188 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:24:21,339 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:24:24,448 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:24:27,489 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:24:30,536 INFO o.a.j.r.Summariser: summary +    895 in 00:00:30 =   29.6/s Avg:  1513 Min:   112 Max:  9053 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2019-08-28 20:24:30,538 INFO o.a.j.r.Summariser: summary =   6246 in 00:03:29 =   29.9/s Avg:  1550 Min:    95 Max: 15248 Err:     0 (0.00%)
+2019-08-28 20:24:36,767 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:24:39,917 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:24:43,042 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:24:46,241 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:24:49,383 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:24:52,427 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:24:55,528 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:24:58,557 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:25:00,010 INFO o.a.j.r.Summariser: summary +    901 in 00:00:29 =   30.6/s Avg:  1524 Min:   111 Max:  9132 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2019-08-28 20:25:00,030 INFO o.a.j.r.Summariser: summary =   7147 in 00:03:58 =   30.0/s Avg:  1547 Min:    95 Max: 15248 Err:     0 (0.00%)
+2019-08-28 20:25:04,751 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:25:07,768 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:25:10,896 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:25:17,136 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:25:22,914 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:25:29,102 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:25:30,022 INFO o.a.j.r.Summariser: summary +    921 in 00:00:30 =   30.7/s Avg:  1448 Min:   100 Max:  9055 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2019-08-28 20:25:30,030 INFO o.a.j.r.Summariser: summary =   8068 in 00:04:28 =   30.1/s Avg:  1536 Min:    95 Max: 15248 Err:     0 (0.00%)
+2019-08-28 20:25:32,116 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:25:38,385 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:25:41,429 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:25:47,645 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:25:50,732 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:25:53,839 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:25:56,855 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:26:00,070 INFO o.a.j.r.Summariser: summary +    853 in 00:00:30 =   28.4/s Avg:  1496 Min:   110 Max:  9049 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2019-08-28 20:26:00,083 INFO o.a.j.r.Summariser: summary =   8921 in 00:04:58 =   29.9/s Avg:  1532 Min:    95 Max: 15248 Err:     0 (0.00%)
+2019-08-28 20:26:09,198 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:26:14,707 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:26:17,712 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:26:20,841 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:26:23,958 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:26:26,971 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:26:30,054 INFO o.a.j.r.Summariser: summary +    888 in 00:00:30 =   29.6/s Avg:  1452 Min:    84 Max:  9059 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2019-08-28 20:26:30,057 INFO o.a.j.r.Summariser: summary =   9809 in 00:05:28 =   29.9/s Avg:  1525 Min:    84 Max: 15248 Err:     0 (0.00%)
+2019-08-28 20:26:30,087 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:26:33,105 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:26:36,254 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:26:39,396 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:26:42,525 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:26:45,567 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:26:48,577 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:26:54,771 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:26:57,796 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:27:00,017 INFO o.a.j.r.Summariser: summary +    883 in 00:00:30 =   29.5/s Avg:  1540 Min:    94 Max: 21001 Err:     1 (0.11%) Active: 100 Started: 100 Finished: 0
+2019-08-28 20:27:00,044 INFO o.a.j.r.Summariser: summary =  10692 in 00:05:58 =   29.8/s Avg:  1526 Min:    84 Max: 21001 Err:     1 (0.01%)
+2019-08-28 20:27:00,944 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:27:07,246 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:27:10,267 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:27:13,381 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:27:16,525 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:27:19,533 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:27:22,651 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:27:25,676 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:27:28,812 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:27:30,005 INFO o.a.j.r.Summariser: summary +    840 in 00:00:30 =   28.0/s Avg:  1674 Min:   111 Max:  9057 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2019-08-28 20:27:30,013 INFO o.a.j.r.Summariser: summary =  11532 in 00:06:28 =   29.7/s Avg:  1537 Min:    84 Max: 21001 Err:     1 (0.01%)
+2019-08-28 20:27:34,990 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:27:38,001 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:27:47,192 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:27:50,230 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:27:59,208 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:28:00,014 INFO o.a.j.r.Summariser: summary +    899 in 00:00:30 =   30.0/s Avg:  1515 Min:   101 Max:  9050 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2019-08-28 20:28:00,016 INFO o.a.j.r.Summariser: summary =  12431 in 00:06:58 =   29.7/s Avg:  1535 Min:    84 Max: 21001 Err:     1 (0.01%)
+2019-08-28 20:28:02,251 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:28:05,301 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:28:08,347 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:28:11,505 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:28:14,609 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:28:17,650 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:28:20,768 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:28:30,004 INFO o.a.j.r.Summariser: summary +    809 in 00:00:30 =   27.0/s Avg:  1634 Min:    97 Max:  9162 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2019-08-28 20:28:30,005 INFO o.a.j.r.Summariser: summary =  13240 in 00:07:28 =   29.5/s Avg:  1541 Min:    84 Max: 21001 Err:     1 (0.01%)
+2019-08-28 20:28:30,080 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:28:33,138 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:28:36,186 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:28:42,288 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:28:45,333 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:28:48,442 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:28:54,664 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:28:57,708 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:29:00,631 INFO o.a.j.r.Summariser: summary +    865 in 00:00:31 =   28.2/s Avg:  1488 Min:    99 Max:  9095 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2019-08-28 20:29:00,632 INFO o.a.j.r.Summariser: summary =  14105 in 00:07:59 =   29.4/s Avg:  1538 Min:    84 Max: 21001 Err:     1 (0.01%)
+2019-08-28 20:29:00,748 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:29:03,862 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:29:06,900 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:29:10,013 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:29:19,332 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:29:22,469 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:29:25,607 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:29:28,724 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:29:30,072 INFO o.a.j.r.Summariser: summary +    901 in 00:00:29 =   30.6/s Avg:  1484 Min:    96 Max:  9102 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2019-08-28 20:29:30,075 INFO o.a.j.r.Summariser: summary =  15006 in 00:08:28 =   29.5/s Avg:  1535 Min:    84 Max: 21001 Err:     1 (0.01%)
+2019-08-28 20:29:31,764 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:29:38,038 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:29:44,244 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:29:47,289 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:29:50,403 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:29:56,583 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:29:59,621 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:30:00,077 INFO o.a.j.r.Summariser: summary +    838 in 00:00:30 =   27.9/s Avg:  1693 Min:    89 Max:  9099 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2019-08-28 20:30:00,077 INFO o.a.j.r.Summariser: summary =  15844 in 00:08:58 =   29.4/s Avg:  1543 Min:    84 Max: 21001 Err:     1 (0.01%)
+2019-08-28 20:30:02,666 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:30:05,800 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:30:12,077 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:30:15,129 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:30:18,176 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:30:24,382 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:30:27,431 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:30:30,472 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:30:30,568 INFO o.a.j.r.Summariser: summary +    843 in 00:00:30 =   27.6/s Avg:  1524 Min:   125 Max:  9058 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2019-08-28 20:30:30,584 INFO o.a.j.r.Summariser: summary =  16687 in 00:09:29 =   29.3/s Avg:  1542 Min:    84 Max: 21001 Err:     1 (0.01%)
+2019-08-28 20:30:36,721 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:30:39,839 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:30:42,886 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:30:49,091 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:30:52,136 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:30:55,196 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:30:58,243 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:31:00,006 INFO o.a.j.r.Summariser: summary +    877 in 00:00:29 =   29.8/s Avg:  1618 Min:   104 Max:  9062 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2019-08-28 20:31:00,012 INFO o.a.j.r.Summariser: summary =  17564 in 00:09:58 =   29.4/s Avg:  1546 Min:    84 Max: 21001 Err:     1 (0.01%)
+2019-08-28 20:31:01,279 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:31:07,474 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:31:10,523 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:31:16,744 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:31:19,764 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:31:29,152 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:31:30,000 INFO o.a.j.r.Summariser: summary +    845 in 00:00:30 =   28.2/s Avg:  1579 Min:    94 Max:  9043 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2019-08-28 20:31:30,003 INFO o.a.j.r.Summariser: summary =  18409 in 00:10:28 =   29.3/s Avg:  1547 Min:    84 Max: 21001 Err:     1 (0.01%)
+2019-08-28 20:31:32,279 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:31:35,397 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:31:38,441 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:31:41,520 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:31:44,541 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:31:47,784 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:31:49,199 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-59
+2019-08-28 20:31:49,200 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-59
+2019-08-28 20:31:50,902 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:31:54,037 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:31:55,337 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-96
+2019-08-28 20:31:55,337 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-96
+2019-08-28 20:31:57,150 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:31:57,260 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-34
+2019-08-28 20:31:57,260 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-34
+2019-08-28 20:31:59,456 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-50
+2019-08-28 20:31:59,456 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-50
+2019-08-28 20:32:00,198 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:32:00,234 INFO o.a.j.r.Summariser: summary +    892 in 00:00:30 =   29.5/s Avg:  1570 Min:   110 Max: 14155 Err:     0 (0.00%) Active: 96 Started: 100 Finished: 4
+2019-08-28 20:32:00,260 INFO o.a.j.r.Summariser: summary =  19301 in 00:10:59 =   29.3/s Avg:  1548 Min:    84 Max: 21001 Err:     1 (0.01%)
+2019-08-28 20:32:03,246 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:32:03,443 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-1
+2019-08-28 20:32:03,443 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-1
+2019-08-28 20:32:03,466 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-79
+2019-08-28 20:32:03,466 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-79
+2019-08-28 20:32:03,467 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-20
+2019-08-28 20:32:03,467 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-20
+2019-08-28 20:32:04,812 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-18
+2019-08-28 20:32:04,812 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-18
+2019-08-28 20:32:06,326 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:32:06,454 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-22
+2019-08-28 20:32:06,454 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-22
+2019-08-28 20:32:08,313 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-91
+2019-08-28 20:32:08,313 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-91
+2019-08-28 20:32:09,452 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-25
+2019-08-28 20:32:09,452 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-25
+2019-08-28 20:32:09,456 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-83
+2019-08-28 20:32:09,457 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-83
+2019-08-28 20:32:09,459 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:32:09,724 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-10
+2019-08-28 20:32:09,724 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-10
+2019-08-28 20:32:10,281 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-80
+2019-08-28 20:32:10,281 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-80
+2019-08-28 20:32:10,365 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-39
+2019-08-28 20:32:10,365 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-39
+2019-08-28 20:32:10,368 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-11
+2019-08-28 20:32:10,368 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-11
+2019-08-28 20:32:10,507 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-90
+2019-08-28 20:32:10,507 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-90
+2019-08-28 20:32:10,787 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-31
+2019-08-28 20:32:10,787 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-31
+2019-08-28 20:32:11,549 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-23
+2019-08-28 20:32:11,549 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-23
+2019-08-28 20:32:11,600 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-7
+2019-08-28 20:32:11,600 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-7
+2019-08-28 20:32:11,627 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-26
+2019-08-28 20:32:11,627 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-26
+2019-08-28 20:32:11,662 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-40
+2019-08-28 20:32:11,662 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-40
+2019-08-28 20:32:12,592 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:32:12,769 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-60
+2019-08-28 20:32:12,769 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-60
+2019-08-28 20:32:12,786 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-13
+2019-08-28 20:32:12,787 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-13
+2019-08-28 20:32:12,843 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-87
+2019-08-28 20:32:12,843 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-87
+2019-08-28 20:32:13,110 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-100
+2019-08-28 20:32:13,110 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-100
+2019-08-28 20:32:13,130 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-56
+2019-08-28 20:32:13,131 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-56
+2019-08-28 20:32:13,207 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-97
+2019-08-28 20:32:13,207 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-97
+2019-08-28 20:32:15,679 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-73
+2019-08-28 20:32:15,679 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-73
+2019-08-28 20:32:15,714 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-14
+2019-08-28 20:32:15,714 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-14
+2019-08-28 20:32:15,722 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:32:15,832 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-35
+2019-08-28 20:32:15,832 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-35
+2019-08-28 20:32:15,848 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-42
+2019-08-28 20:32:15,848 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-42
+2019-08-28 20:32:16,000 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-27
+2019-08-28 20:32:16,000 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-27
+2019-08-28 20:32:16,212 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-37
+2019-08-28 20:32:16,212 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-37
+2019-08-28 20:32:16,218 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-52
+2019-08-28 20:32:16,218 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-52
+2019-08-28 20:32:16,246 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-28
+2019-08-28 20:32:16,246 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-28
+2019-08-28 20:32:16,271 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-45
+2019-08-28 20:32:16,271 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-45
+2019-08-28 20:32:16,283 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-21
+2019-08-28 20:32:16,283 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-21
+2019-08-28 20:32:16,579 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-77
+2019-08-28 20:32:16,579 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-77
+2019-08-28 20:32:16,871 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-8
+2019-08-28 20:32:16,871 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-8
+2019-08-28 20:32:16,875 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-66
+2019-08-28 20:32:16,875 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-66
+2019-08-28 20:32:16,907 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-95
+2019-08-28 20:32:16,907 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-95
+2019-08-28 20:32:18,726 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:32:18,840 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-15
+2019-08-28 20:32:18,840 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-15
+2019-08-28 20:32:18,847 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-67
+2019-08-28 20:32:18,847 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-67
+2019-08-28 20:32:18,897 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-81
+2019-08-28 20:32:18,897 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-81
+2019-08-28 20:32:18,940 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-82
+2019-08-28 20:32:18,940 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-82
+2019-08-28 20:32:18,962 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-54
+2019-08-28 20:32:18,962 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-54
+2019-08-28 20:32:19,277 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-89
+2019-08-28 20:32:19,277 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-89
+2019-08-28 20:32:19,379 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-63
+2019-08-28 20:32:19,379 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-63
+2019-08-28 20:32:19,395 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-76
+2019-08-28 20:32:19,396 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-76
+2019-08-28 20:32:19,682 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-75
+2019-08-28 20:32:19,682 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-75
+2019-08-28 20:32:21,834 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:32:21,921 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-93
+2019-08-28 20:32:21,921 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-93
+2019-08-28 20:32:21,950 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-71
+2019-08-28 20:32:21,950 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-71
+2019-08-28 20:32:21,982 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-58
+2019-08-28 20:32:21,982 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-58
+2019-08-28 20:32:21,985 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-69
+2019-08-28 20:32:21,985 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-69
+2019-08-28 20:32:22,328 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-2
+2019-08-28 20:32:22,328 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-2
+2019-08-28 20:32:22,352 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-29
+2019-08-28 20:32:22,352 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-29
+2019-08-28 20:32:22,359 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-53
+2019-08-28 20:32:22,359 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-53
+2019-08-28 20:32:22,385 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-65
+2019-08-28 20:32:22,385 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-65
+2019-08-28 20:32:22,429 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-49
+2019-08-28 20:32:22,429 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-49
+2019-08-28 20:32:22,437 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-16
+2019-08-28 20:32:22,437 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-16
+2019-08-28 20:32:24,914 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:32:24,996 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-32
+2019-08-28 20:32:24,997 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-32
+2019-08-28 20:32:25,011 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-46
+2019-08-28 20:32:25,011 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-46
+2019-08-28 20:32:25,086 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-17
+2019-08-28 20:32:25,086 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-17
+2019-08-28 20:32:25,116 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-98
+2019-08-28 20:32:25,116 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-98
+2019-08-28 20:32:25,132 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-57
+2019-08-28 20:32:25,133 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-57
+2019-08-28 20:32:25,134 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-62
+2019-08-28 20:32:25,134 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-62
+2019-08-28 20:32:25,145 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-78
+2019-08-28 20:32:25,145 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-78
+2019-08-28 20:32:25,147 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-48
+2019-08-28 20:32:25,147 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-48
+2019-08-28 20:32:25,151 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-61
+2019-08-28 20:32:25,151 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-61
+2019-08-28 20:32:27,977 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:32:28,055 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-70
+2019-08-28 20:32:28,055 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-70
+2019-08-28 20:32:28,060 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-44
+2019-08-28 20:32:28,060 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-44
+2019-08-28 20:32:28,158 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-72
+2019-08-28 20:32:28,159 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-72
+2019-08-28 20:32:28,160 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-19
+2019-08-28 20:32:28,160 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-19
+2019-08-28 20:32:28,167 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-99
+2019-08-28 20:32:28,168 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-99
+2019-08-28 20:32:28,170 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-86
+2019-08-28 20:32:28,170 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-86
+2019-08-28 20:32:28,171 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-55
+2019-08-28 20:32:28,172 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-55
+2019-08-28 20:32:28,177 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-38
+2019-08-28 20:32:28,177 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-38
+2019-08-28 20:32:28,180 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-12
+2019-08-28 20:32:28,180 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-12
+2019-08-28 20:32:31,062 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:32:31,131 INFO o.a.j.r.Summariser: summary +    645 in 00:00:31 =   20.9/s Avg:  1057 Min:    60 Max:  9054 Err:     0 (0.00%) Active: 21 Started: 100 Finished: 79
+2019-08-28 20:32:31,132 INFO o.a.j.r.Summariser: summary =  19946 in 00:11:30 =   28.9/s Avg:  1532 Min:    60 Max: 21001 Err:     1 (0.01%)
+2019-08-28 20:32:31,162 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-47
+2019-08-28 20:32:31,162 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-47
+2019-08-28 20:32:31,172 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-5
+2019-08-28 20:32:31,172 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-5
+2019-08-28 20:32:31,180 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-3
+2019-08-28 20:32:31,180 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-3
+2019-08-28 20:32:31,200 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-9
+2019-08-28 20:32:31,200 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-9
+2019-08-28 20:32:31,203 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-84
+2019-08-28 20:32:31,204 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-84
+2019-08-28 20:32:31,205 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-74
+2019-08-28 20:32:31,205 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-74
+2019-08-28 20:32:31,207 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-51
+2019-08-28 20:32:31,207 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-51
+2019-08-28 20:32:34,133 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:32:34,244 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-41
+2019-08-28 20:32:34,244 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-41
+2019-08-28 20:32:34,263 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-6
+2019-08-28 20:32:34,263 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-6
+2019-08-28 20:32:34,268 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-68
+2019-08-28 20:32:34,268 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-24
+2019-08-28 20:32:34,268 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-68
+2019-08-28 20:32:34,268 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-24
+2019-08-28 20:32:34,275 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-33
+2019-08-28 20:32:34,275 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-33
+2019-08-28 20:32:37,206 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:32:37,271 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-30
+2019-08-28 20:32:37,272 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-30
+2019-08-28 20:32:37,276 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-4
+2019-08-28 20:32:37,276 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-4
+2019-08-28 20:32:37,276 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-85
+2019-08-28 20:32:37,276 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-85
+2019-08-28 20:32:37,278 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-64
+2019-08-28 20:32:37,278 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-64
+2019-08-28 20:32:37,291 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-43
+2019-08-28 20:32:37,292 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-43
+2019-08-28 20:32:40,259 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:32:40,309 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-36
+2019-08-28 20:32:40,309 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-36
+2019-08-28 20:32:43,313 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:32:43,362 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-88
+2019-08-28 20:32:43,362 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-88
+2019-08-28 20:32:46,352 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:32:46,406 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-94
+2019-08-28 20:32:46,406 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-94
+2019-08-28 20:32:49,405 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:32:52,451 WARN o.a.j.t.SyncTimer: SyncTimer Synchronizing Timer timeouted waiting for users after: 3000ms
+2019-08-28 20:32:52,511 INFO o.a.j.t.JMeterThread: Thread is done: 商品详情场景 1-92
+2019-08-28 20:32:52,511 INFO o.a.j.t.JMeterThread: Thread finished: 商品详情场景 1-92
+2019-08-28 20:32:52,512 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2019-08-28 20:32:52,516 INFO o.a.j.r.Summariser: summary +     54 in 00:00:21 =    2.5/s Avg:    97 Min:    39 Max:   143 Err:     0 (0.00%) Active: 0 Started: 100 Finished: 100
+2019-08-28 20:32:52,517 INFO o.a.j.r.Summariser: summary =  20000 in 00:11:51 =   28.1/s Avg:  1529 Min:    39 Max: 21001 Err:     1 (0.01%)
+2019-08-28 20:32:52,518 INFO o.a.j.JMeter: Generating Dashboard
+2019-08-28 20:32:52,518 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2019-08-28 20:32:52,549 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2019-08-28 20:32:54,736 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2019-08-28 20:32:54,736 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2019-08-28 20:32:54,738 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2019-08-28 20:32:54,738 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2019-08-28 20:32:54,755 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2019-08-28 20:32:54,765 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2019-08-28 20:32:54,765 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2019-08-28 20:32:54,766 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2019-08-28 20:32:54,922 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2019-08-28 20:32:54,926 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2019-08-28 20:32:54,927 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2019-08-28 20:32:54,927 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2019-08-28 20:32:54,988 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2019-08-28 20:32:54,989 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 140000 samples
+2019-08-28 20:32:54,989 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2019-08-28 20:32:54,989 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2019-08-28 20:32:54,990 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2019-08-28 20:32:54,991 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2019-08-28 20:32:54,991 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2019-08-28 20:32:55,005 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2019-08-28 20:32:55,012 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2019-08-28 20:32:55,012 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2019-08-28 20:32:55,012 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2019-08-28 20:32:55,012 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 420000 samples
+2019-08-28 20:32:55,012 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 90000 samples
+2019-08-28 20:32:55,012 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 30000 samples
+2019-08-28 20:32:55,013 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 30000 samples produced in 2s 435 ms on channel 0
+2019-08-28 20:32:55,013 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2019-08-28 20:32:55,016 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: C:\Users\SNake\VSCodeProjects\ljtest201907\JmeterTest\.\100-100-01
+2019-08-28 20:32:55,160 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: C:\Users\SNake\VSCodeProjects\ljtest201907\JmeterTest\.\100-100-01, creating folder structure
+2019-08-28 20:32:56,040 INFO o.a.j.JMeter: Dashboard generated
