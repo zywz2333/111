@@ -94,7 +94,7 @@
 <Res><![CDATA[result1]]></Res>
 <Action rID="T2">
 <AName><![CDATA[vuser_init]]></AName>
-<Summary sTime="2019/8/28 - 22:29:55" eTime="2019/8/28 - 22:29:55" passed="0" failed="0" warnings="0" ></Summary>
+<Summary sTime="2019/8/29 - 21:06:42" eTime="2019/8/29 - 21:06:42" passed="0" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="5" >
 <Disp><![CDATA[vuser_init Summary]]></Disp>
 </NodeArgs>
@@ -105,7 +105,7 @@
 <Step rID="T5">
 <Obj plainTxt="False" ><![CDATA[Custom Request: web_custom_request]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2019/8/28 - 22:29:59]]></Time>
+<Time><![CDATA[2019/8/29 - 21:06:44]]></Time>
 <NodeArgs eType="General" icon="4" nRep="9" status="Passed" >
 <Disp><![CDATA[Custom Request: web_custom_request]]></Disp>
 <BtmPane vType="HTMLSNSH">
@@ -116,7 +116,7 @@
 <Step rID="T6">
 <Obj plainTxt="False" ><![CDATA[Submit Data: login]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2019/8/28 - 22:30:00]]></Time>
+<Time><![CDATA[2019/8/29 - 21:06:45]]></Time>
 <NodeArgs eType="General" icon="5" nRep="10" status="Passed" >
 <Disp><![CDATA[Submit Data: login]]></Disp>
 <BtmPane vType="HTMLSNSH">
@@ -127,7 +127,7 @@
 <Step rID="T7">
 <Obj plainTxt="False" ><![CDATA[Custom Request: LUXLOGIN]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2019/8/28 - 22:30:01]]></Time>
+<Time><![CDATA[2019/8/29 - 21:06:46]]></Time>
 <NodeArgs eType="General" icon="4" nRep="11" status="Passed" >
 <Disp><![CDATA[Custom Request: LUXLOGIN]]></Disp>
 <BtmPane vType="HTMLSNSH">
@@ -135,24 +135,85 @@
 </BtmPane>
 </NodeArgs>
 </Step>
-<Summary sTime="2019/8/28 - 22:29:55" eTime="2019/8/28 - 22:30:01" passed="3" failed="0" warnings="0" ></Summary>
+<Summary sTime="2019/8/29 - 21:06:42" eTime="2019/8/29 - 21:06:46" passed="3" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="8" status="Passed" >
 <Disp><![CDATA[Action Summary]]></Disp>
 </NodeArgs>
 </Action>
-<NodeArgs eType="StartIteration" icon="3" nRep="7" status="Passed" >
+<Action rID="T8">
+<AName><![CDATA[Action2]]></AName>
+<Step rID="T9">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text=code": 200,</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/8/29 - 21:06:46]]></Time>
+<NodeArgs eType="General" icon="6" nRep="14" >
+<Disp><![CDATA[Service: Reg Find]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T10">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Save Param]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>userToken</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB=token": "</FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB="</FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00></FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/8/29 - 21:06:46]]></Time>
+<NodeArgs eType="General" icon="7" nRep="15" >
+<Disp><![CDATA[Service: Reg Save Param]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T11">
+<Obj plainTxt="False" ><![CDATA[Custom Request: LUXLOGIN]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/8/29 - 21:06:47]]></Time>
+<NodeArgs eType="General" icon="4" nRep="16" status="Passed" >
+<Disp><![CDATA[Custom Request: LUXLOGIN]]></Disp>
+<BtmPane vType="HTMLSNSH">
+<Path><![CDATA[\Iteration1\t4.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T12">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text=code": 2001,</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/8/29 - 21:06:47]]></Time>
+<NodeArgs eType="General" icon="6" nRep="17" >
+<Disp><![CDATA[Service: Reg Find]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T13">
+<Obj plainTxt="False" ><![CDATA[Custom Request: logout]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#FF0031>Step failed</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/8/29 - 21:06:48]]></Time>
+<NodeArgs eType="General" icon="4" nRep="18" status="Failed" >
+<Disp><![CDATA[Custom Request: logout]]></Disp>
+<BtmPane vType="HTMLSNSH">
+<Path><![CDATA[\Iteration1\t5.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T14">
+<Obj plainTxt="False" ><![CDATA[Script Aborted!]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#FF0031>Failed</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/8/29 - 21:06:48]]></Time>
+<NodeArgs eType="General" icon="1" nRep="19" status="Failed" >
+<Disp><![CDATA[Script Aborted!]]></Disp>
+</NodeArgs>
+</Step>
+<Summary sTime="2019/8/29 - 21:06:46" eTime="2019/8/29 - 21:06:48" passed="1" failed="2" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="13" status="Failed" >
+<Disp><![CDATA[Action2 Summary]]></Disp>
+</NodeArgs>
+</Action>
+<NodeArgs eType="StartIteration" icon="3" nRep="7" status="Failed" >
 <Disp><![CDATA[demo1 Iteration 1 (Row 1)]]></Disp>
 </NodeArgs>
 </DIter>
-<Action rID="T8">
+<Action rID="T15">
 <AName><![CDATA[vuser_end]]></AName>
-<Summary sTime="2019/8/28 - 22:30:01" eTime="2019/8/28 - 22:30:01" passed="0" failed="0" warnings="0" ></Summary>
-<NodeArgs eType="StartAction" icon="2" nRep="14" >
+<Summary sTime="2019/8/29 - 21:06:48" eTime="2019/8/29 - 21:06:48" passed="0" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="22" >
 <Disp><![CDATA[vuser_end Summary]]></Disp>
 </NodeArgs>
 </Action>
-<Summary sTime="2019/8/28 - 22:29:55" eTime="2019/8/28 - 22:30:01" passed="3" failed="0" warnings="0" ></Summary>
-<NodeArgs eType="StartTest" icon="1" nRep="4" status="Passed" >
+<Summary sTime="2019/8/29 - 21:06:42" eTime="2019/8/29 - 21:06:48" passed="4" failed="2" warnings="0" ></Summary>
+<NodeArgs eType="StartTest" icon="1" nRep="4" status="Failed" >
 <Disp><![CDATA[Test demo1 Summary]]></Disp>
 </NodeArgs>
 </Doc>

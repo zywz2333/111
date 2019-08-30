@@ -10,37 +10,24 @@ BuildTarget=
 ParamRightBrace=}
 ParamLeftBrace={
 NewFunctionHeader=1
-LastActiveAction=Action
+LastActiveAction=Action2
 CorrInfoReportDir=result1
 LastResultDir=result1
 DevelopTool=Vugen
 ActionLogicExt=action_logic
 MajorVersion=11
 MinorVersion=0
-ParameterFile=
+ParameterFile=demo1.prm
 GlobalParameterFile=
 RunType=cci
 LastModifyVer=11.0.0.0
 [TransactionsOrder]
-Order=""
-[ExtraFiles]
-globals.h=
+Order="user_login_and_logout__*delimiter*__login__*delimiter*__logout"
 [Actions]
 vuser_init=vuser_init.c
 Action=Action.c
+Action2=Action2.c
 vuser_end=vuser_end.c
-[Recorded Actions]
-vuser_init=0
-Action=0
-vuser_end=0
-[Replayed Actions]
-vuser_init=1
-Action=1
-vuser_end=1
-[Modified Actions]
-vuser_init=0
-Action=1
-vuser_end=0
 [ProtocolsVersion]
 QTWeb=11.0.0.0
 [RunLogicFiles]
@@ -60,4 +47,30 @@ Default Profile=default.usp
 21=0
 CurrentState=1
 VuserStateHistory= 0 65536 65552
-LastReplayStatus=1
+LastReplayStatus=2
+LastReplayErrorID1=-26366
+LastReplayErrorMsg1=Action2.c(64): Error -26366: "Text=code": 2001," not found for web_reg_find  	[MsgId: MERR-26366]
+[Transactions]
+user_login_and_logout=
+login=
+logout=
+[Rendezvous]
+login=
+logout=
+[ExtraFiles]
+globals.h=
+[Recorded Actions]
+vuser_init=0
+Action=0
+Action2=0
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+Action=1
+Action2=1
+vuser_end=1
+[Modified Actions]
+vuser_init=0
+Action=1
+Action2=1
+vuser_end=0

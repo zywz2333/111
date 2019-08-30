@@ -1,4 +1,4 @@
-Virtual User Script started at : 2019-08-28 22:29:55
+Virtual User Script started at : 2019-08-29 21:06:42
 Starting action vuser_init.
 Web Turbo Replay of LoadRunner 11.0.0 for WIN32; build 8859 (Aug 18 2010 20:14:31)  	[MsgId: MMSG-27143]
 Run Mode: HTML  	[MsgId: MMSG-26000]
@@ -6,8 +6,8 @@ Run-Time Settings file: "C:\Users\SNake\VSCodeProjects\ljtest201907\LoadRunnerTe
 Vuser directory: "C:\Users\SNake\VSCodeProjects\ljtest201907\LoadRunnerTest\demo1"  	[MsgId: MMSG-27052]
 Vuser output directory: "C:\Users\SNake\VSCodeProjects\ljtest201907\LoadRunnerTest\demo1"  	[MsgId: MMSG-27050]
 Operating system's current working directory: "C:\Users\SNake\VSCodeProjects\ljtest201907\LoadRunnerTest\demo1"  	[MsgId: MMSG-27048]
-UTC (GMT) start date/time   : 2019-08-28 14:29:55  	[MsgId: MMSG-26000]
-LOCAL start date/time       : 2019-08-28 22:29:55  	[MsgId: MMSG-26000]
+UTC (GMT) start date/time   : 2019-08-29 13:06:42  	[MsgId: MMSG-26000]
+LOCAL start date/time       : 2019-08-29 21:06:42  	[MsgId: MMSG-26000]
 Local daylight-Savings-Time : No  	[MsgId: MMSG-26000]
 Some of the Run-Time Settings:  	[MsgId: MMSG-27142]
     Download non-HTML resources: Yes  	[MsgId: MMSG-26845]
@@ -46,9 +46,9 @@ Running Vuser...
 Starting iteration 1.
 Starting action Action.
 Action.c(5): web_custom_request("web_custom_request") started  	[MsgId: MMSG-26355]
-Action.c(5): t=1118ms: Connecting [0] to host 132.232.44.158:8080  	[MsgId: MMSG-26000]
-Action.c(5): t=1133ms: Connected socket [0] from 192.168.1.139:7114 to 132.232.44.158:8080 in 8 ms  	[MsgId: MMSG-26000]
-Action.c(5): t=1143ms: 193-byte request headers for "http://132.232.44.158:8080/morning/getAllGoods" (RelFrameId=1, Internal ID=1)
+Action.c(5): t=689ms: Connecting [0] to host 132.232.44.158:8080  	[MsgId: MMSG-26000]
+Action.c(5): t=704ms: Connected socket [0] from 192.168.1.139:8122 to 132.232.44.158:8080 in 7 ms  	[MsgId: MMSG-26000]
+Action.c(5): t=719ms: 193-byte request headers for "http://132.232.44.158:8080/morning/getAllGoods" (RelFrameId=1, Internal ID=1)
 Action.c(5):     GET /morning/getAllGoods HTTP/1.1\r\n
 Action.c(5):     User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT)\r\n
 Action.c(5):     Accept-Encoding: gzip, deflate\r\n
@@ -56,20 +56,16 @@ Action.c(5):     Accept: */*\r\n
 Action.c(5):     Connection: Keep-Alive\r\n
 Action.c(5):     Host: 132.232.44.158:8080\r\n
 Action.c(5):     \r\n
-Action.c(5): t=1240ms: 210-byte response headers for "http://132.232.44.158:8080/morning/getAllGoods" (RelFrameId=1, Internal ID=1)
+Action.c(5): t=817ms: 210-byte response headers for "http://132.232.44.158:8080/morning/getAllGoods" (RelFrameId=1, Internal ID=1)
 Action.c(5):     HTTP/1.1 200 \r\n
-Action.c(5):     Set-Cookie: JSESSIONID=C30935C3284C580A602EC7EC5291B60E; Path=/morning; HttpOnly\r\n
+Action.c(5):     Set-Cookie: JSESSIONID=079DD1206EC00446E90BD0410D77D6D0; Path=/morning; HttpOnly\r\n
 Action.c(5):     Content-Type: application/json;charset=UTF-8\r\n
 Action.c(5):     Transfer-Encoding: chunked\r\n
-Action.c(5):     Date: Wed, 28 Aug 2019 14:29:56 GMT\r\n
+Action.c(5):     Date: Thu, 29 Aug 2019 13:06:42 GMT\r\n
 Action.c(5):     \r\n
-Action.c(5): t=1397ms: 6-byte chunked response overhead for "http://132.232.44.158:8080/morning/getAllGoods" (RelFrameId=1, Internal ID=1)
+Action.c(5): t=912ms: 6-byte chunked response overhead for "http://132.232.44.158:8080/morning/getAllGoods" (RelFrameId=1, Internal ID=1)
 Action.c(5):     1283\r\n
-Action.c(5): t=1422ms: 7-byte chunked response overhead for "http://132.232.44.158:8080/morning/getAllGoods" (RelFrameId=1, Internal ID=1)
-Action.c(5):     \r\n
-Action.c(5):     0\r\n
-Action.c(5):     \r\n
-Action.c(5): t=1496ms: 4739-byte chunked response body for "http://132.232.44.158:8080/morning/getAllGoods" (RelFrameId=1, Internal ID=1)
+Action.c(5): t=931ms: 2608-byte chunked response body for "http://132.232.44.158:8080/morning/getAllGoods" (RelFrameId=1, Internal ID=1)
 Action.c(5):     {"success":true,"message":"获取�\x80有商品成�\x9F!","entity":[{"goodsId":1,"goodsN
 Action.c(5):     ame":"随身WIFI 8GB U盘版","goodsPrice":49.9,"goodsDescript":"随身上网神器，内�
 Action.c(5):     \xAE8GB U�\x98","goodsImagename":"1","goodsDate":1463583887000,"goodsBuyNum":651,"goodsVi
@@ -99,119 +95,229 @@ Action.c(5):     m":54,"goodsViewNum":20,"goodsSaveInfo":78,"goodsQuery":7,"good
 Action.c(5):     s":0,"classifyId":6,"goodsContext":null,"goodsClassify":{"classifyId":6,"classifyName":"�
 Action.c(5):     �能家具","goodsList":null}},{"goodsId":7,"goodsName":"水质TDS�\x80测笔","goodsPric
 Action.c(5):     e":59.0,"goodsDescript":"准确�\x80测家中水质纯�\xA6","goodsImagename":"7","goods
-Action.c(5):     Date":1462374294000,"goodsBuyNum":874,"goodsViewNum":4,"goodsSaveInfo":451,"goodsQuery":78
-Action.c(5):     ,"goodsReviews":63,"goodsFavorites":0,"classifyId":6,"goodsContext":null,"goodsClassify":{
-Action.c(5):     "classifyId":6,"classifyName":"智能家具","goodsList":null}},{"goodsId":8,"goodsName":"
-Action.c(5):     猫宁电视","goodsPrice":3999.0,"goodsDescript":"猫宁电视�\x8C40/48/49/55英寸 现�
-Action.c(5):     ��购买","goodsImagename":"8","goodsDate":1463065494000,"goodsBuyNum":881,"goodsViewNum":
-Action.c(5):     17,"goodsSaveInfo":1565,"goodsQuery":45,"goodsReviews":15,"goodsFavorites":0,"classifyId":
-Action.c(5):     2,"goodsContext":null,"goodsClassify":{"classifyId":2,"classifyName":"电视","goodsList":
-Action.c(5):     null}},{"goodsId":9,"goodsName":"平板电脑","goodsPrice":1999.0,"goodsDescript":"全球
-Action.c(5):     首款 NVIDIA Tegra K1 平板","goodsImagename":"9","goodsDate":1463583894000,"goodsBuyNum
-Action.c(5):     ":457,"goodsViewNum":5,"goodsSaveInfo":345,"goodsQuery":3,"goodsReviews":34,"goodsFavorite
-Action.c(5):     s":0,"classifyId":1,"goodsContext":null,"goodsClassify":{"classifyId":1,"classifyName":"�
-Action.c(5):     �宁平板","goodsList":null}},{"goodsId":10,"goodsName":"电视机顶�\x92","goodsPrice"
-Action.c(5):     :599.0,"goodsDescript":"首款4K超高清网络机顶盒","goodsImagename":"10","goodsDate
-Action.c(5):     ":1464361494000,"goodsBuyNum":78,"goodsViewNum":17,"goodsSaveInfo":15,"goodsQuery":86,"goo
-Action.c(5):     dsReviews":86,"goodsFavorites":0,"classifyId":3,"goodsContext":null,"goodsClassify":{"clas
-Action.c(5):     sifyId":3,"classifyName":"路由�\xA8","goodsList":null}},{"goodsId":11,"goodsName":"全�
-Action.c(5):     ��猫宁路由�\xA8","goodsPrice":378.0,"goodsDescript":"顶配路由器，企业级�\x80
-Action.c(5):     �能","goodsImagename":"11","goodsDate":1463583894000,"goodsBuyNum":458,"goodsViewNum":16,
-Action.c(5):     "goodsSaveInfo":875,"goodsQuery":67,"goodsReviews":31,"goodsFavorites":0,"classifyId":3,"g
-Action.c(5):     oodsContext":null,"goodsClassify":{"classifyId":3,"classifyName":"路由�\xA8","goodsList
-Action.c(5):     ":null}},{"goodsId":12,"goodsName":"头戴式�\x80�机","goodsPrice":577.0,"goodsDescript"
-Action.c(5):     :"媲美主流千元级头戴�\x80�机","goodsImagename":"12","goodsDate":1463583894000,"g
-Action.c(5):     oodsBuyNum":1000,"goodsViewNum":24,"goodsSaveInfo":451,"goodsQuery":78,"goodsReviews":78,"
-Action.c(5):     goodsFavorites":0,"classifyId":7,"goodsContext":null,"goodsClassify":{"classifyId":7,"clas
-Action.c(5):     sifyName":"耳机","goodsList":null}}]}
+Action.c(5):     Date":1462374294000,"goodsBuyNum":874,"goodsV
 Action.c(5): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Run-Time Setting is "TEXT"). URL="http://132.232.44.158:8080/morning/getAllGoods"  	[MsgId: MMSG-26548]
-Action.c(5): t=3093ms: Request done "http://132.232.44.158:8080/morning/getAllGoods"  	[MsgId: MMSG-26000]
+Action.c(5): t=1491ms: 7-byte chunked response overhead for "http://132.232.44.158:8080/morning/getAllGoods" (RelFrameId=1, Internal ID=1)
+Action.c(5):     \r\n
+Action.c(5):     0\r\n
+Action.c(5):     \r\n
+Action.c(5): t=1594ms: 2131-byte chunked response body for "http://132.232.44.158:8080/morning/getAllGoods" (RelFrameId=1, Internal ID=1)
+Action.c(5):     iewNum":4,"goodsSaveInfo":451,"goodsQuery":78,"goodsReviews":63,"goodsFavorites":0,"classi
+Action.c(5):     fyId":6,"goodsContext":null,"goodsClassify":{"classifyId":6,"classifyName":"智能家具",
+Action.c(5):     "goodsList":null}},{"goodsId":8,"goodsName":"猫宁电视","goodsPrice":3999.0,"goodsDescr
+Action.c(5):     ipt":"猫宁电视�\x8C40/48/49/55英寸 现货购买","goodsImagename":"8","goodsDate":1
+Action.c(5):     463065494000,"goodsBuyNum":881,"goodsViewNum":17,"goodsSaveInfo":1565,"goodsQuery":45,"goo
+Action.c(5):     dsReviews":15,"goodsFavorites":0,"classifyId":2,"goodsContext":null,"goodsClassify":{"clas
+Action.c(5):     sifyId":2,"classifyName":"电视","goodsList":null}},{"goodsId":9,"goodsName":"平板电脑
+Action.c(5):     ","goodsPrice":1999.0,"goodsDescript":"全球首款 NVIDIA Tegra K1 平板","goodsImagenam
+Action.c(5):     e":"9","goodsDate":1463583894000,"goodsBuyNum":457,"goodsViewNum":5,"goodsSaveInfo":345,"g
+Action.c(5):     oodsQuery":3,"goodsReviews":34,"goodsFavorites":0,"classifyId":1,"goodsContext":null,"good
+Action.c(5):     sClassify":{"classifyId":1,"classifyName":"猫宁平板","goodsList":null}},{"goodsId":10,
+Action.c(5):     "goodsName":"电视机顶�\x92","goodsPrice":599.0,"goodsDescript":"首款4K超高清网�
+Action.c(5):     �机顶盒","goodsImagename":"10","goodsDate":1464361494000,"goodsBuyNum":78,"goodsViewNum
+Action.c(5):     ":17,"goodsSaveInfo":15,"goodsQuery":86,"goodsReviews":86,"goodsFavorites":0,"classifyId":
+Action.c(5):     3,"goodsContext":null,"goodsClassify":{"classifyId":3,"classifyName":"路由�\xA8","goods
+Action.c(5):     List":null}},{"goodsId":11,"goodsName":"全新猫宁路由�\xA8","goodsPrice":378.0,"good
+Action.c(5):     sDescript":"顶配路由器，企业级�\x80�能","goodsImagename":"11","goodsDate":146358
+Action.c(5):     3894000,"goodsBuyNum":458,"goodsViewNum":16,"goodsSaveInfo":875,"goodsQuery":67,"goodsRevi
+Action.c(5):     ews":31,"goodsFavorites":0,"classifyId":3,"goodsContext":null,"goodsClassify":{"classifyId
+Action.c(5):     ":3,"classifyName":"路由�\xA8","goodsList":null}},{"goodsId":12,"goodsName":"头戴式�
+Action.c(5):     \x80�机","goodsPrice":577.0,"goodsDescript":"媲美主流千元级头戴�\x80�机","goods
+Action.c(5):     Imagename":"12","goodsDate":1463583894000,"goodsBuyNum":1000,"goodsViewNum":24,"goodsSaveI
+Action.c(5):     nfo":451,"goodsQuery":78,"goodsReviews":78,"goodsFavorites":0,"classifyId":7,"goodsContext
+Action.c(5):     ":null,"goodsClassify":{"classifyId":7,"classifyName":"耳机","goodsList":null}}]}
+Action.c(5): t=2309ms: Request done "http://132.232.44.158:8080/morning/getAllGoods"  	[MsgId: MMSG-26000]
 Action.c(5): web_custom_request("web_custom_request") was successful, 4739 body bytes, 210 header bytes, 13 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(18): web_submit_data("login") started  	[MsgId: MMSG-26355]
-Action.c(18): t=4042ms: Already connected [0] to 132.232.44.158:8080  	[MsgId: MMSG-26000]
-Action.c(18): t=4091ms: 344-byte request headers for "http://132.232.44.158:8080/morning/user/userLogin" (RelFrameId=1, Internal ID=2)
-Action.c(18):     POST /morning/user/userLogin HTTP/1.1\r\n
-Action.c(18):     Content-Type: application/x-www-form-urlencoded\r\n
-Action.c(18):     Cache-Control: no-cache\r\n
-Action.c(18):     User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT)\r\n
-Action.c(18):     Accept-Encoding: gzip, deflate\r\n
-Action.c(18):     Accept: */*\r\n
-Action.c(18):     Connection: Keep-Alive\r\n
-Action.c(18):     Host: 132.232.44.158:8080\r\n
-Action.c(18):     Cookie: JSESSIONID=C30935C3284C580A602EC7EC5291B60E\r\n
-Action.c(18):     Content-Length: 59\r\n
-Action.c(18):     \r\n
-Action.c(18): t=4534ms: 59-byte request body for "http://132.232.44.158:8080/morning/user/userLogin" (RelFrameId=1, Internal ID=2)
-Action.c(18):     user.loginName=2941635995@qq.com&user.loginPassword=a123456
-Action.c(18): t=4601ms: 128-byte response headers for "http://132.232.44.158:8080/morning/user/userLogin" (RelFrameId=1, Internal ID=2)
-Action.c(18):     HTTP/1.1 200 \r\n
-Action.c(18):     Content-Type: application/json;charset=UTF-8\r\n
-Action.c(18):     Transfer-Encoding: chunked\r\n
-Action.c(18):     Date: Wed, 28 Aug 2019 14:29:59 GMT\r\n
-Action.c(18):     \r\n
-Action.c(18): t=4818ms: 5-byte chunked response overhead for "http://132.232.44.158:8080/morning/user/userLogin" (RelFrameId=1, Internal ID=2)
-Action.c(18):     195\r\n
-Action.c(18): t=4892ms: 7-byte chunked response overhead for "http://132.232.44.158:8080/morning/user/userLogin" (RelFrameId=1, Internal ID=2)
-Action.c(18):     \r\n
-Action.c(18):     0\r\n
-Action.c(18):     \r\n
-Action.c(18): t=4971ms: 405-byte chunked response body for "http://132.232.44.158:8080/morning/user/userLogin" (RelFrameId=1, Internal ID=2)
-Action.c(18):     {"success":false,"message":"你输入的密码和账户名不匹配，请确认后重新�
-Action.c(18):     �入�\x82","entity":{"accountId":null,"loginName":"2941635995@qq.com","loginPassword":"a1
-Action.c(18):     23456","createDate":null,"userName":null,"userIdentity":null,"picImg":null,"email":null,"t
-Action.c(18):     elephone":null,"sex":null,"age":null,"payment":null,"msgNum":null,"userPoint":null,"status
-Action.c(18):     ":null,"lastLoginTime":null,"lastLoginIp":null}}
-Action.c(18): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Run-Time Setting is "TEXT"). URL="http://132.232.44.158:8080/morning/user/userLogin"  	[MsgId: MMSG-26548]
-Action.c(18): t=5072ms: Request done "http://132.232.44.158:8080/morning/user/userLogin"  	[MsgId: MMSG-26000]
-Action.c(18): web_submit_data("login") was successful, 405 body bytes, 128 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(30): web_custom_request("LUXLOGIN") started  	[MsgId: MMSG-26355]
-Action.c(30): Warning: The string '"username":"test", "password":"123456", "captcha":"123456"' with parameter delimiters is not a parameter.
-Action.c(30): t=5264ms: Connecting [1] to host 132.232.44.158:5000  	[MsgId: MMSG-26000]
-Action.c(30): t=5295ms: Connected socket [1] from 192.168.1.139:7120 to 132.232.44.158:5000 in 12 ms  	[MsgId: MMSG-26000]
-Action.c(30): t=5312ms: 262-byte request headers for "http://132.232.44.158:5000/userLogin/" (RelFrameId=1, Internal ID=3)
-Action.c(30):     POST /userLogin/ HTTP/1.1\r\n
-Action.c(30):     Content-Type: application/json\r\n
-Action.c(30):     Cache-Control: no-cache\r\n
-Action.c(30):     User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT)\r\n
-Action.c(30):     Accept-Encoding: gzip, deflate\r\n
-Action.c(30):     Accept: */*\r\n
-Action.c(30):     Connection: Keep-Alive\r\n
-Action.c(30):     Host: 132.232.44.158:5000\r\n
-Action.c(30):     Content-Length: 60\r\n
-Action.c(30):     \r\n
-Action.c(30): t=5537ms: 60-byte request body for "http://132.232.44.158:5000/userLogin/" (RelFrameId=1, Internal ID=3)
-Action.c(30):     {"username":"test", "password":"123456", "captcha":"123456"}
-Action.c(30): t=5646ms: 648-byte response headers for "http://132.232.44.158:5000/userLogin/" (RelFrameId=1, Internal ID=3)
-Action.c(30):     HTTP/1.1 200 OK\r\n
-Action.c(30):     Server: gunicorn/19.9.0\r\n
-Action.c(30):     Date: Wed, 28 Aug 2019 14:30:00 GMT\r\n
-Action.c(30):     Connection: keep-alive\r\n
-Action.c(30):     Content-Type: application/json\r\n
-Action.c(30):     Content-Length: 115\r\n
-Action.c(30):     Vary: Cookie\r\n
-Action.c(30):     Set-Cookie: session=.eJyVUUtuwyAQvUrKOkRAIB9WWXTTU1TEJti1jQmD82mUW_QuPVKv0cFJU6m7IhCPN2-Y3
-Action.c(30):     4UMYCPRF2LKMloAokmykMiUGGeJFmJKCtu2oeo9PglX7GehpIjWJPuMB02C8RVlEveESy25VhIlthwKk-reo-IXI9-
-Action.c(30):     Zur0H2-z3s6LvkK1LojlenctywdQJKknVsVGUH8SCnmMD1FpjTiC2wgQ1C96R0eHl5urrovGmywmBN41FYzAAxz6WO
-Action.c(30):     X0xl2qBXMT4sUHGjSVMdkPbPiEP9oTk18dnxrXzJg1x_OuBkU-IYIyW-sbmyrpqFyCsGN2-Hzq6rrZ7Oswd5usqgPb
-Action.c(30):     8tl5yhZ5DKP_2S1G2nvCllkyL3NI8jnv-9zkcbVGZ9KjnetO8_iv09RsmzZgE.XWaP6A.kqLGduPKDjNASpf5lOpQn
-Action.c(30):     0N_2JY; HttpOnly; Path=/\r\n
-Action.c(30):     \r\n
-Action.c(30): t=6000ms: 115-byte response body for "http://132.232.44.158:5000/userLogin/" (RelFrameId=1, Internal ID=3)
-Action.c(30):     {\n
-Action.c(30):       "code": 200, \n
-Action.c(30):       "data": {\n
-Action.c(30):         "token": "mhfpsp80-bzvm-9hbq-u3g6-yghsslyj9715"\n
-Action.c(30):       }, \n
-Action.c(30):       "msg": "登录成功!"\n
-Action.c(30):     }\n
-Action.c(30): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Run-Time Setting is "TEXT"). URL="http://132.232.44.158:5000/userLogin/"  	[MsgId: MMSG-26548]
-Action.c(30): t=6092ms: Request done "http://132.232.44.158:5000/userLogin/"  	[MsgId: MMSG-26000]
-Action.c(30): web_custom_request("LUXLOGIN") was successful, 115 body bytes, 648 header bytes  	[MsgId: MMSG-26386]
+Action.c(16): web_submit_data("login") started  	[MsgId: MMSG-26355]
+Action.c(16): t=2869ms: Already connected [0] to 132.232.44.158:8080  	[MsgId: MMSG-26000]
+Action.c(16): t=2917ms: 344-byte request headers for "http://132.232.44.158:8080/morning/user/userLogin" (RelFrameId=1, Internal ID=2)
+Action.c(16):     POST /morning/user/userLogin HTTP/1.1\r\n
+Action.c(16):     Content-Type: application/x-www-form-urlencoded\r\n
+Action.c(16):     Cache-Control: no-cache\r\n
+Action.c(16):     User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT)\r\n
+Action.c(16):     Accept-Encoding: gzip, deflate\r\n
+Action.c(16):     Accept: */*\r\n
+Action.c(16):     Connection: Keep-Alive\r\n
+Action.c(16):     Host: 132.232.44.158:8080\r\n
+Action.c(16):     Cookie: JSESSIONID=079DD1206EC00446E90BD0410D77D6D0\r\n
+Action.c(16):     Content-Length: 59\r\n
+Action.c(16):     \r\n
+Action.c(16): t=3265ms: 59-byte request body for "http://132.232.44.158:8080/morning/user/userLogin" (RelFrameId=1, Internal ID=2)
+Action.c(16):     user.loginName=2941635995@qq.com&user.loginPassword=a123456
+Action.c(16): t=3344ms: 128-byte response headers for "http://132.232.44.158:8080/morning/user/userLogin" (RelFrameId=1, Internal ID=2)
+Action.c(16):     HTTP/1.1 200 \r\n
+Action.c(16):     Content-Type: application/json;charset=UTF-8\r\n
+Action.c(16):     Transfer-Encoding: chunked\r\n
+Action.c(16):     Date: Thu, 29 Aug 2019 13:06:44 GMT\r\n
+Action.c(16):     \r\n
+Action.c(16): t=3504ms: 5-byte chunked response overhead for "http://132.232.44.158:8080/morning/user/userLogin" (RelFrameId=1, Internal ID=2)
+Action.c(16):     195\r\n
+Action.c(16): t=3545ms: 7-byte chunked response overhead for "http://132.232.44.158:8080/morning/user/userLogin" (RelFrameId=1, Internal ID=2)
+Action.c(16):     \r\n
+Action.c(16):     0\r\n
+Action.c(16):     \r\n
+Action.c(16): t=3618ms: 405-byte chunked response body for "http://132.232.44.158:8080/morning/user/userLogin" (RelFrameId=1, Internal ID=2)
+Action.c(16):     {"success":false,"message":"你输入的密码和账户名不匹配，请确认后重新�
+Action.c(16):     �入�\x82","entity":{"accountId":null,"loginName":"2941635995@qq.com","loginPassword":"a1
+Action.c(16):     23456","createDate":null,"userName":null,"userIdentity":null,"picImg":null,"email":null,"t
+Action.c(16):     elephone":null,"sex":null,"age":null,"payment":null,"msgNum":null,"userPoint":null,"status
+Action.c(16):     ":null,"lastLoginTime":null,"lastLoginIp":null}}
+Action.c(16): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Run-Time Setting is "TEXT"). URL="http://132.232.44.158:8080/morning/user/userLogin"  	[MsgId: MMSG-26548]
+Action.c(16): t=3721ms: Request done "http://132.232.44.158:8080/morning/user/userLogin"  	[MsgId: MMSG-26000]
+Action.c(16): web_submit_data("login") was successful, 405 body bytes, 128 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(28): web_custom_request("LUXLOGIN") started  	[MsgId: MMSG-26355]
+Action.c(28): Warning: The string '"username":"test", "password":"123456", "captcha":"123456"' with parameter delimiters is not a parameter.
+Action.c(28): t=3870ms: Connecting [1] to host 132.232.44.158:5000  	[MsgId: MMSG-26000]
+Action.c(28): t=3893ms: Connected socket [1] from 192.168.1.139:8126 to 132.232.44.158:5000 in 6 ms  	[MsgId: MMSG-26000]
+Action.c(28): t=3907ms: 262-byte request headers for "http://132.232.44.158:5000/userLogin/" (RelFrameId=1, Internal ID=3)
+Action.c(28):     POST /userLogin/ HTTP/1.1\r\n
+Action.c(28):     Content-Type: application/json\r\n
+Action.c(28):     Cache-Control: no-cache\r\n
+Action.c(28):     User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT)\r\n
+Action.c(28):     Accept-Encoding: gzip, deflate\r\n
+Action.c(28):     Accept: */*\r\n
+Action.c(28):     Connection: Keep-Alive\r\n
+Action.c(28):     Host: 132.232.44.158:5000\r\n
+Action.c(28):     Content-Length: 60\r\n
+Action.c(28):     \r\n
+Action.c(28): t=4056ms: 60-byte request body for "http://132.232.44.158:5000/userLogin/" (RelFrameId=1, Internal ID=3)
+Action.c(28):     {"username":"test", "password":"123456", "captcha":"123456"}
+Action.c(28): t=4140ms: 648-byte response headers for "http://132.232.44.158:5000/userLogin/" (RelFrameId=1, Internal ID=3)
+Action.c(28):     HTTP/1.1 200 OK\r\n
+Action.c(28):     Server: gunicorn/19.9.0\r\n
+Action.c(28):     Date: Thu, 29 Aug 2019 13:06:45 GMT\r\n
+Action.c(28):     Connection: keep-alive\r\n
+Action.c(28):     Content-Type: application/json\r\n
+Action.c(28):     Content-Length: 115\r\n
+Action.c(28):     Vary: Cookie\r\n
+Action.c(28):     Set-Cookie: session=.eJyVUU1ywiAUvoplLU6CoJZVF930FB2EZ4wkBIE0qY636F16pF6jj2jtTHdlYPj43vd4f
+Action.c(28):     2fSRwhEnokyJkCMRJIEMZE5URUQydicaGgav-8cPkkpip-FEh1AJXjGgyZWlBtacNyzkkteSsFRAqbXKtWdQ8UvRr5
+Action.c(28):     VdXML9nQ8LnTXIlsbIku82irLWSHGuOdUDFbQ8o2t6HuwkQIoNUa2ZcqLhXcVmRxerq6u1tapNicUnbKARq9iHLpgc
+Action.c(28):     vpsycUKuYDxg0WmmkqY7fqmeUA-wojk18dnxnXlVOrD9NcdI58QxSla6izkynbRngxsBxqOpqJLGBt6OBwSPTHdVpv
+Action.c(28):     k114o9Oy9-dsvQYvHWbmWvJAstzSP45b_bQ4D6L1K93ouV83rv0JfvgGdfJly.XWfN5Q.S_vVmWf1u-HcY-Lap9H-G
+Action.c(28):     i-p_ZU; HttpOnly; Path=/\r\n
+Action.c(28):     \r\n
+Action.c(28): t=4343ms: 115-byte response body for "http://132.232.44.158:5000/userLogin/" (RelFrameId=1, Internal ID=3)
+Action.c(28):     {\n
+Action.c(28):       "code": 200, \n
+Action.c(28):       "data": {\n
+Action.c(28):         "token": "fskzdebw-rqdg-3exl-jjjt-z2cmg8tp7p5a"\n
+Action.c(28):       }, \n
+Action.c(28):       "msg": "登录成功!"\n
+Action.c(28):     }\n
+Action.c(28): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Run-Time Setting is "TEXT"). URL="http://132.232.44.158:5000/userLogin/"  	[MsgId: MMSG-26548]
+Action.c(28): t=4435ms: Request done "http://132.232.44.158:5000/userLogin/"  	[MsgId: MMSG-26000]
+Action.c(28): web_custom_request("LUXLOGIN") was successful, 115 body bytes, 648 header bytes  	[MsgId: MMSG-26386]
 Ending action Action.
+Starting action Action2.
+Action2.c(17): web_reg_find started  	[MsgId: MMSG-26355]
+Action2.c(17): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action2.c(22): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action2.c(22): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action2.c(30): Rendezvous login
+Action2.c(34): Notify: Transaction "user_login_and_logout" started.
+Action2.c(36): Notify: Transaction "login" started.
+Action2.c(38): web_custom_request("LUXLOGIN") started  	[MsgId: MMSG-26355]
+Action2.c(38): Notify: Parameter Substitution: parameter "username" =  "test999"
+Action2.c(38): Notify: Parameter Substitution: parameter "password" =  "123456"
+Action2.c(38): t=4795ms: Already connected [1] to 132.232.44.158:5000  	[MsgId: MMSG-26000]
+Action2.c(38): t=4804ms: 716-byte request headers for "http://132.232.44.158:5000/userLogin/" (RelFrameId=1, Internal ID=4)
+Action2.c(38):     POST /userLogin/ HTTP/1.1\r\n
+Action2.c(38):     Content-Type: application/json\r\n
+Action2.c(38):     Cache-Control: no-cache\r\n
+Action2.c(38):     User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT)\r\n
+Action2.c(38):     Accept-Encoding: gzip, deflate\r\n
+Action2.c(38):     Accept: */*\r\n
+Action2.c(38):     Connection: Keep-Alive\r\n
+Action2.c(38):     Host: 132.232.44.158:5000\r\n
+Action2.c(38):     Cookie: session=.eJyVUU1ywiAUvoplLU6CoJZVF930FB2EZ4wkBIE0qY636F16pF6jj2jtTHdlYPj43vd4f2fSR
+Action2.c(38):     whEnokyJkCMRJIEMZE5URUQydicaGgav-8cPkkpip-FEh1AJXjGgyZWlBtacNyzkkteSsFRAqbXKtWdQ8UvRr5VdXM
+Action2.c(38):     L9nQ8LnTXIlsbIku82irLWSHGuOdUDFbQ8o2t6HuwkQIoNUa2ZcqLhXcVmRxerq6u1tapNicUnbKARq9iHLpgcvpsy
+Action2.c(38):     cUKuYDxg0WmmkqY7fqmeUA-wojk18dnxnXlVOrD9NcdI58QxSla6izkynbRngxsBxqOpqJLGBt6OBwSPTHdVpvk114
+Action2.c(38):     o9Oy9-dsvQYvHWbmWvJAstzSP45b_bQ4D6L1K93ouV83rv0JfvgGdfJly.XWfN5Q.S_vVmWf1u-HcY-Lap9H-Gi-p_
+Action2.c(38):     ZU\r\n
+Action2.c(38):     Content-Length: 63\r\n
+Action2.c(38):     \r\n
+Action2.c(38): t=4970ms: 63-byte request body for "http://132.232.44.158:5000/userLogin/" (RelFrameId=1, Internal ID=4)
+Action2.c(38):     {"username":"test999", "password":"123456", "captcha":"123456"}
+Action2.c(38): t=5054ms: 552-byte response headers for "http://132.232.44.158:5000/userLogin/" (RelFrameId=1, Internal ID=4)
+Action2.c(38):     HTTP/1.1 200 OK\r\n
+Action2.c(38):     Server: gunicorn/19.9.0\r\n
+Action2.c(38):     Date: Thu, 29 Aug 2019 13:06:46 GMT\r\n
+Action2.c(38):     Connection: keep-alive\r\n
+Action2.c(38):     Content-Type: application/json\r\n
+Action2.c(38):     Content-Length: 115\r\n
+Action2.c(38):     Vary: Cookie\r\n
+Action2.c(38):     Set-Cookie: session=.eJyVUMtOxDAM_BXkcyM1fdHmzIWvQCExadUkrfJgd1ntv-MqhQsnDpHG9nhmnDvkiAHEH
+Action2.c(38):     aTWAWMEAVCBNAjCZ2srUGjtPm8ey0QFlAlf6FHd1HxkvGHN8MQH0T6LtiUK6qxkWjZfNtDJxRa4aBC87mpCzpwtZ17
+Action2.c(38):     1j5df1OqlO6QTxjRNEzF2GeNlC0QC3rRdP1AvkGhYi0LE6wkW42XK4UwaExV0D68gbSseaay55fdOf7It947FUQU2m
+Action2.c(38):     9kx3g2jmvqPrxU72sy7_r2xBDs-6U-wC6pZpsPsURhv__J5fAMLhHQW.XWfN5g.eslNogkHudKrw-e-b1QSQXs3gD4
+Action2.c(38):     ; HttpOnly; Path=/\r\n
+Action2.c(38):     \r\n
+Action2.c(38): t=5208ms: 115-byte response body for "http://132.232.44.158:5000/userLogin/" (RelFrameId=1, Internal ID=4)
+Action2.c(38):     {\n
+Action2.c(38):       "code": 200, \n
+Action2.c(38):       "data": {\n
+Action2.c(38):         "token": "lgyub4dv-ou5m-s8cr-hghm-1468c95fzke4"\n
+Action2.c(38):       }, \n
+Action2.c(38):       "msg": "登录成功!"\n
+Action2.c(38):     }\n
+Action2.c(38): Notify: Saving Parameter "userToken = lgyub4dv-ou5m-s8cr-hghm-1468c95fzke4".
+Action2.c(38): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Run-Time Setting is "TEXT"). URL="http://132.232.44.158:5000/userLogin/"  	[MsgId: MMSG-26548]
+Action2.c(38): t=5303ms: Request done "http://132.232.44.158:5000/userLogin/"  	[MsgId: MMSG-26000]
+Action2.c(38): Registered web_reg_find successful for "Text=code": 200," (count=1)  	[MsgId: MMSG-26364]
+Action2.c(38): web_custom_request("LUXLOGIN") was successful, 115 body bytes, 552 header bytes  	[MsgId: MMSG-26386]
+Action2.c(48): Notify: Transaction "login" ended with "Pass" status (Duration: 0.6450 Wasted Time: 0.0442).
+Action2.c(54): web_reg_find started  	[MsgId: MMSG-26355]
+Action2.c(54): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action2.c(59): Rendezvous logout
+Action2.c(62): Notify: Transaction "logout" started.
+Action2.c(64): web_custom_request("logout") started  	[MsgId: MMSG-26355]
+Action2.c(64): Notify: Parameter Substitution: parameter "userToken" =  "lgyub4dv-ou5m-s8cr-hghm-1468c95fzke4"
+Action2.c(64): t=5604ms: Already connected [1] to 132.232.44.158:5000  	[MsgId: MMSG-26000]
+Action2.c(64): t=5614ms: 621-byte request headers for "http://132.232.44.158:5000/userLogout/" (RelFrameId=1, Internal ID=5)
+Action2.c(64):     POST /userLogout/ HTTP/1.1\r\n
+Action2.c(64):     Content-Type: application/json\r\n
+Action2.c(64):     Cache-Control: no-cache\r\n
+Action2.c(64):     User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT)\r\n
+Action2.c(64):     Accept-Encoding: gzip, deflate\r\n
+Action2.c(64):     Accept: */*\r\n
+Action2.c(64):     Connection: Keep-Alive\r\n
+Action2.c(64):     Host: 132.232.44.158:5000\r\n
+Action2.c(64):     Cookie: session=.eJyVUMtOxDAM_BXkcyM1fdHmzIWvQCExadUkrfJgd1ntv-MqhQsnDpHG9nhmnDvkiAHEHaTWA
+Action2.c(64):     WMEAVCBNAjCZ2srUGjtPm8ey0QFlAlf6FHd1HxkvGHN8MQH0T6LtiUK6qxkWjZfNtDJxRa4aBC87mpCzpwtZ171j5d
+Action2.c(64):     f1OqlO6QTxjRNEzF2GeNlC0QC3rRdP1AvkGhYi0LE6wkW42XK4UwaExV0D68gbSseaay55fdOf7It947FUQU2m9kx3
+Action2.c(64):     g2jmvqPrxU72sy7_r2xBDs-6U-wC6pZpsPsURhv__J5fAMLhHQW.XWfN5g.eslNogkHudKrw-e-b1QSQXs3gD4\r\n
+Action2.c(64):     Content-Length: 49\r\n
+Action2.c(64):     \r\n
+Action2.c(64): t=5768ms: 49-byte request body for "http://132.232.44.158:5000/userLogout/" (RelFrameId=1, Internal ID=5)
+Action2.c(64):     {"token": "lgyub4dv-ou5m-s8cr-hghm-1468c95fzke4"}
+Action2.c(64): t=5797ms: 237-byte response headers for "http://132.232.44.158:5000/userLogout/" (RelFrameId=1, Internal ID=5)
+Action2.c(64):     HTTP/1.1 200 OK\r\n
+Action2.c(64):     Server: gunicorn/19.9.0\r\n
+Action2.c(64):     Date: Thu, 29 Aug 2019 13:06:47 GMT\r\n
+Action2.c(64):     Connection: keep-alive\r\n
+Action2.c(64):     Content-Type: application/json\r\n
+Action2.c(64):     Content-Length: 60\r\n
+Action2.c(64):     Set-Cookie: session=; Expires=Thu, 01-Jan-1970 00:00:00 GMT; Max-Age=0; Path=/\r\n
+Action2.c(64):     \r\n
+Action2.c(64): t=5915ms: 60-byte response body for "http://132.232.44.158:5000/userLogout/" (RelFrameId=1, Internal ID=5)
+Action2.c(64):     {\n
+Action2.c(64):       "code": 200, \n
+Action2.c(64):       "data": {}, \n
+Action2.c(64):       "msg": "操作成功!"\n
+Action2.c(64):     }\n
+Action2.c(64): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Run-Time Setting is "TEXT"). URL="http://132.232.44.158:5000/userLogout/"  	[MsgId: MMSG-26548]
+Action2.c(64): t=5983ms: Request done "http://132.232.44.158:5000/userLogout/"  	[MsgId: MMSG-26000]
+Action2.c(64): Error -26366: "Text=code": 2001," not found for web_reg_find  	[MsgId: MERR-26366]
+Action2.c(64): web_custom_request("logout") highest severity level was "ERROR", 60 body bytes, 237 header bytes  	[MsgId: MMSG-26388]
+Action2.c(64): Notify: Transaction "logout" ended with "Fail" status (Duration: 0.5294 Wasted Time: 0.0325).
+Action2.c(64): Notify: Transaction "user_login_and_logout" ended with "Fail" status (Duration: 1.3495 Wasted Time: 0.0766).
+Ending action Action2.
 Ending iteration 1.
 Ending Vuser...
 Starting action vuser_end.
 Ending action vuser_end.
 Vuser Terminated.
-t=6494ms: Closed connection [0] to 132.232.44.158:8080 after completing 2 requests  	[MsgId: MMSG-26000]
-t=6511ms: Closed connection [1] to 132.232.44.158:5000 after completing 1 request  	[MsgId: MMSG-26000]
+Action2.c(64): t=6277ms: Closed connection [0] to 132.232.44.158:8080 after completing 2 requests  	[MsgId: MMSG-26000]
+Action2.c(64): t=6286ms: Closed connection [1] to 132.232.44.158:5000 after completing 3 requests  	[MsgId: MMSG-26000]

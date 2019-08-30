@@ -1,0 +1,12 @@
+[t5]
+SnapshotXmlFile=snapshot_5.xml
+ContentType=text/plain
+StepName=Custom Request: logout
+Total=1
+FileName1=t5.UNK
+RequestHeaderFile=t5_RequestHeader.txt
+ResponseHeaderFile=t5_ResponseHeader.txt
+RequestBodyFile=t5_RequestBody.txt
+URL1=file:
+[AdditionalInfo]
+IsIgnorable=1

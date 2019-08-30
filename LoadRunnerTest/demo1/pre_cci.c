@@ -1759,9 +1759,7 @@ Action()
 		"LAST");
 
 
-
 	 
-	
 	web_submit_data("login",
 		"Action=http://132.232.44.158:8080/morning/user/userLogin",
 		"Method=POST",
@@ -1789,10 +1787,92 @@ Action()
 }
 # 4 "c:\\users\\snake\\vscodeprojects\\ljtest201907\\loadrunnertest\\demo1\\\\combined_demo1.c" 2
 
+# 1 "Action2.c" 1
+Action2()
+{
+
+
+	 
+
+
+
+	 
+
+
+
+
+	 
+	 
+
+	web_reg_find("Text=code\": 200,",
+		"LAST");
+
+
+	 
+	web_reg_save_param("userToken",
+		"LB=token\": \"",
+		"RB=\"",
+		"LAST");
+
+	 
+	 
+	 
+	lr_rendezvous("login");
+
+	 
+	
+	lr_start_transaction("user_login_and_logout");
+
+	lr_start_transaction("login");
+
+	web_custom_request("LUXLOGIN",
+		"URL=http://132.232.44.158:5000/userLogin/",
+		"Method=POST",
+		"TargetFrame=",
+		"Resource=0",
+		"Referer=",
+		"EncType=application/json",
+		"Body={\"username\":\"{username}\", \"password\":\"{password}\", \"captcha\":\"123456\"}",  
+		"LAST");
+
+	lr_end_transaction("login", 2);
+
+
+	 
+
+
+	web_reg_find("Text=code\": 2001,",
+		"LAST");
+
+	 
+	 
+	lr_rendezvous("logout");
+
+	
+	lr_start_transaction("logout");
+
+	web_custom_request("logout",
+		"URL=http://132.232.44.158:5000/userLogout/",
+		"Method=post",
+		"TargetFrame=",
+		"Resource=0",
+		"Referer=",
+		"EncType=application/json",
+		"Body={\"token\": \"{userToken}\"}",  
+		"LAST");
+	
+	lr_end_transaction("logout", 2);
+
+	lr_end_transaction("user_login_and_logout", 2);
+
+	return 0;
+}
+# 5 "c:\\users\\snake\\vscodeprojects\\ljtest201907\\loadrunnertest\\demo1\\\\combined_demo1.c" 2
+
 # 1 "vuser_end.c" 1
 vuser_end()
 {
 	return 0;
 }
-# 5 "c:\\users\\snake\\vscodeprojects\\ljtest201907\\loadrunnertest\\demo1\\\\combined_demo1.c" 2
+# 6 "c:\\users\\snake\\vscodeprojects\\ljtest201907\\loadrunnertest\\demo1\\\\combined_demo1.c" 2
 
